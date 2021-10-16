@@ -69,7 +69,8 @@ body {
 .receipt {
     text-align: center;
     position: sticky;
-    top: 5vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
     height: 20vw;
     margin-left: 30vw;
     /* background-color: blue; */
@@ -90,9 +91,14 @@ body {
 #RC-4 {
     display: none;
 }
+
 @keyframes baiset {
-    0%   {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .big-receipt[data-scene="1"] #RC-1 {
@@ -113,4 +119,10 @@ body {
 .big-receipt[data-scene="4"] #RC-4 {
     animation: baiset 0.7s;
     display: flex;
+}
+
+.logo {
+    left: 20%;
+    top: 0.4%;
+    position: absolute;
 }
