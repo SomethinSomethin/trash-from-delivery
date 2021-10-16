@@ -11,7 +11,7 @@ body {
     /* background-color: red; */
     position: absolute;
     z-index: 2;
-    top: 30vw;
+    top: 25vw;
 }
 
 #condi-2 {
@@ -21,7 +21,7 @@ body {
     /* background-color: brown; */
     position: absolute;
     z-index: 2;
-    top: 50vw;
+    top: 45vw;
 }
 
 #condi-3 {
@@ -70,12 +70,12 @@ body {
     text-align: center;
     position: sticky;
     top: 200px;
-    height: 30%;
+    height: 20%;
     margin-left: 50%;
     transform: translateX(-50%);
-
     /* background-color: blue; */
 }
+
 .receipt-img {
     width: 50%;
     display: block;
@@ -100,7 +100,8 @@ body {
 #RC-4 {
     display: none;
 }
-#RC-5{
+
+#RC-5 {
     width: 5%;
     display: none;
     position: absolute;
@@ -117,7 +118,7 @@ body {
     }
 }
 
-.big-receipt[data-scene="1"] #RC-1{
+.big-receipt[data-scene="1"] #RC-1 {
     animation: baiset 0.7s;
     display: flex;
 }
@@ -132,7 +133,8 @@ body {
     display: flex;
 }
 
-.big-receipt[data-scene="4"] #RC-4, #RC-5{
+.big-receipt[data-scene="4"] #RC-4,
+#RC-5 {
     animation: baiset 0.7s;
     display: flex;
 }
