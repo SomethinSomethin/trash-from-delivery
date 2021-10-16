@@ -69,11 +69,13 @@ body {
 .receipt {
     text-align: center;
     position: sticky;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    height: 20vw;
+    top: 100px;
+    height: 30%;
     margin-left: 30vw;
     /* background-color: blue; */
+}
+.receipt-img {
+    scale: 0.8;
 }
 
 #RC-1 {
@@ -122,7 +124,7 @@ body {
 }
 
 .logo {
-    left: 20%;
+    left: 10%;
     top: 0.4%;
     position: absolute;
 }
