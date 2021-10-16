@@ -7,7 +7,7 @@ body {
 #condi-1 {
     width: 100px;
     left: 200px;
-    height: 100px;
+    height: 200px;
     /* background-color: red; */
     position: absolute;
     z-index: 2;
@@ -17,7 +17,7 @@ body {
 #condi-2 {
     width: 100px;
     left: 200px;
-    height: 100px;
+    height: 200px;
     /* background-color: brown; */
     position: absolute;
     z-index: 2;
@@ -27,7 +27,7 @@ body {
 #condi-3 {
     width: 100px;
     left: 200px;
-    height: 100px;
+    height: 200px;
     /* background-color: blue; */
     position: absolute;
     z-index: 2;
@@ -37,7 +37,7 @@ body {
 #condi-4 {
     width: 100px;
     left: 200px;
-    height: 100px;
+    height: 200px;
     /* background-color: salmon; */
     position: absolute;
     z-index: 2;
@@ -69,7 +69,7 @@ body {
 .receipt {
     text-align: center;
     position: sticky;
-    top: 100px;
+    top: 200px;
     height: 30%;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -77,10 +77,12 @@ body {
     /* background-color: blue; */
 }
 .receipt-img {
-    scale: 0.8;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #RC-1 {
@@ -98,6 +100,13 @@ body {
 #RC-4 {
     display: none;
 }
+#RC-5{
+    width: 5%;
+    display: none;
+    position: absolute;
+    right: 25%;
+    top: 0px;
+}
 
 @keyframes baiset {
     0% {
@@ -108,7 +117,7 @@ body {
     }
 }
 
-.big-receipt[data-scene="1"] #RC-1 {
+.big-receipt[data-scene="1"] #RC-1{
     animation: baiset 0.7s;
     display: flex;
 }
@@ -123,7 +132,7 @@ body {
     display: flex;
 }
 
-.big-receipt[data-scene="4"] #RC-4 {
+.big-receipt[data-scene="4"] #RC-4, #RC-5{
     animation: baiset 0.7s;
     display: flex;
 }
