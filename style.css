@@ -69,7 +69,8 @@ body {
 .receipt {
     text-align: center;
     position: sticky;
-    top: 5vw;
+    margin-left: 50%;
+    transform:translateX(-50%);
     height: 20vw;
     margin-left: 30vw;
     /* background-color: blue; */
