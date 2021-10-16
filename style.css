@@ -1,6 +1,7 @@
 body {
-    margin:0px;
-    padding:0px;
+    /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
 }
 
 #condi-1 {
@@ -89,19 +90,27 @@ body {
 #RC-4 {
     display: none;
 }
+@keyframes baiset {
+    0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
 
 .big-receipt[data-scene="1"] #RC-1 {
+    animation: baiset 0.7s;
     display: flex;
 }
 
 .big-receipt[data-scene="2"] #RC-2 {
+    animation: baiset 0.7s;
     display: flex;
 }
 
 .big-receipt[data-scene="3"] #RC-3 {
+    animation: baiset 0.7s;
     display: flex;
 }
 
 .big-receipt[data-scene="4"] #RC-4 {
+    animation: baiset 0.7s;
     display: flex;
 }
