@@ -155,30 +155,34 @@ body {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    padding: 20px;
-    margin: 20px;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     transition: 0.5s;
     overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
-  
-  /* The Close Button */
-  .close {
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    right: 20%;
-    border-radius: 5px;
-    border:none;
-    transition: 0.3s;
-    background: black;
-    color: white;
-  }
-  
-  .close:hover {
-    transform: scale(1.4);
-    cursor: pointer;
-    background: black;
-  }
+
+.modal::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.close {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 20%;
+  border-radius: 5px;
+  border:none;
+  transition: 0.3s;
+  background: black;
+  color: white;
+}
+
+.close:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+  background: black;
+}
