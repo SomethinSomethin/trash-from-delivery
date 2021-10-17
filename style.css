@@ -109,15 +109,6 @@ body {
     top: 0px;
 }
 
-@keyframes baiset {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .big-receipt[data-scene="1"] #RC-1 {
     animation: baiset 0.7s;
     display: flex;
@@ -185,4 +176,14 @@ body {
   transform: scale(1.4);
   cursor: pointer;
   background: black;
+}
+
+/*------------------------------keyframes-------------------------------*/
+@keyframes baiset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
