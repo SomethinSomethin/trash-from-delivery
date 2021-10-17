@@ -133,8 +133,12 @@ body {
     display: flex;
 }
 
-.big-receipt[data-scene="4"] #RC-4,
-#RC-5 {
+.big-receipt[data-scene="4"] #RC-4 {
+    animation: baiset 0.7s;
+    display: flex;
+}
+
+.big-receipt[data-scene="4"] #RC-5 {
     animation: baiset 0.7s;
     display: flex;
 }
