@@ -12,6 +12,15 @@
 
 <body>
     <script src="script.js"></script>
+    <!---->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <button class="close" onclick="close_mod()">&times;</button>
+            <img class="receipt-img" src="/IMG/ใบเสร็จกาง ซูม 1 desktop.png" style="height: 100%;">
+        </div>          
+    </div>
+    
+    <!---->
     <div>
         <span id="varY">0</span>
     </div>
@@ -27,10 +36,12 @@
                 <img class="receipt-img" src="/IMG/ใบเสร็จพับ 2 desktop.png" id="RC-2">
                 <img class="receipt-img" src="/IMG/ใบเสร็จพับ 3 desktop.png" id="RC-3">
                 <img class="receipt-img" src="/IMG/ใบเสร็จกาง 1 desktop.png" id="RC-4">
-                <img class="receipt-img" src="/IMG/ปุ่มบวก.svg" id="RC-5">
+                <img class="receipt-img" src="/IMG/ปุ่มบวก.svg" id="RC-5" onclick="pop()">
+                
             </div>
         </div>
     </div>
+
 </body>
 
 </html>

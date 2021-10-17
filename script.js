@@ -21,3 +21,22 @@ document.body.onscroll = function() {
         document.querySelector(".big-receipt").dataset.scene = 4
     }
 }
+
+function pop(){
+    var modal = document.getElementById("modal1");
+    modal.style.display = "block";
+    console.log(1);
+};
+
+function close_mod(){
+    console.log(1);
+    var modal = document.getElementById("modal1");
+    modal.style.display = "none";
+};
+
+window.onclick = function(event) {
+    var modal = document.getElementById("modal1");
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+}; 
