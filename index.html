@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <title>trash-from-delivery</title>
 </head>
 
 <body>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <!---->
     <div id="modal1" class="modal">
         <div class="modal-content">
@@ -23,22 +28,67 @@
     <div>
         <span id="varY">0</span>
     </div>
-    <div class="container">
-        <div class="logo"><img src="./IMG/Logo Desktop.png"></div>
-        <div id="condi-1"></div>
-        <div id="condi-2"></div>
-        <div id="condi-3"></div>
-        <div id="condi-4"></div>
-        <div class="big-receipt" data-scene="1">
-            <div class="receipt">
-                <img class="receipt-img" src="./IMG/ใบเสร็จพับ 1 desktop.png" id="RC-1">
-                <img class="receipt-img" src="./IMG/ใบเสร็จพับ 2 desktop.png" id="RC-2">
-                <img class="receipt-img" src="./IMG/ใบเสร็จพับ 3 desktop.png" id="RC-3">
-                <img class="receipt-img" src="./IMG/ใบเสร็จกาง 1 desktop.png" id="RC-4">
-                <img class="receipt-img" src="./IMG/ปุ่มบวก.svg" id="RC-5" onclick="pop()">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo"><img src="./IMG/Logo Desktop.png"></div>
+                <div id="condi-1"></div>
+                <div id="condi-2"></div>
+                <div id="condi-3"></div>
+                <div id="condi-4"></div>
+                <div class="big-receipt" data-scene="1">
+                    <div class="receipt">
+                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 1 desktop.png" id="RC-1">
+                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 2 desktop.png" id="RC-2">
+                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 3 desktop.png" id="RC-3">
+                        <img class="receipt-img" src="./IMG/ใบเสร็จกาง 1 desktop.png" id="RC-4">
+                        <img class="receipt-img" src="./IMG/ปุ่มบวก.svg" id="RC-5" onclick="pop()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20%;">
+            <div class="col-12">
+                <div class="bagforfood">
+                    <img src="./IMG/ถุงอาหารรวม desktop.png" alt="" id="fullwidth">
+                    <div class="ricechicken">
+                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" id="fullwidth">
+                    </div>
+                    <div class="kapu">
+                        <img src="./IMG/คาปูหน้ารวม desktop.png" alt="" id="fullwidth">
+                    </div>
+                    <div class="yentafo">
+                        <img src="./IMG/เย็นตาโฟ desktop.png" alt="" id="fullwidth">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 20%;">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="ricechicken-1">
+                    <a href="">
+                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" id="fullwidth">
+                    </a>
+                </div>
 
             </div>
         </div>
+        <div class="row" style="margin-bottom: 20%;">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="kapu-1">
+                    <a href="">
+                        <img src="./IMG/คาปูหน้ารวม desktop.png" alt="" id="fullwidth">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+
     </div>
 
 </body>
