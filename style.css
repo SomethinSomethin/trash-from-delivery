@@ -247,6 +247,7 @@ body {
     z-index: -1;
     transition: all 0.9s;
     /* background-color: blanchedalmond; */
+    text-align: center;
 }
 
 .kapu {
@@ -258,6 +259,7 @@ body {
     z-index: 1;
     transition: all 0.5s;
     /* background-color: blanchedalmond; */
+    text-align: center;
 }
 
 .ricechicken {
@@ -269,6 +271,7 @@ body {
     z-index: 1;
     transition: all 0.7s;
     /* background-color: blanchedalmond; */
+    text-align: center;
 }
 
 #fullwidth {
@@ -303,6 +306,16 @@ body {
     z-index: 1;
 }
 
+.bagforfood[data-scene="0"] .click {
+    opacity: 0%;
+}
+
+.click {
+    transition: all 0.5s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 .bigbag[data-scene="1"] .bag {
     position: absolute;
     margin-top: 20%;
@@ -331,6 +344,12 @@ body {
     position: absolute;
     z-index: 2;
     top: 190vw;
+}
+
+.click1 {
+    position: absolute;
+    left: 48vw;
+    top: 80vw;
 }
 
 
