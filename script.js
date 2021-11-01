@@ -57,3 +57,20 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 };
+
+function show_Detlekapu() {
+    document.querySelector(".bigbag").dataset.show = "kapu";
+
+};
+
+function show_Detleyentafo() {
+    document.querySelector(".bigbag").dataset.show = "yentafo";
+};
+
+function show_Detlericechicken() {
+    document.querySelector(".bigbag").dataset.show = "ricechicken";
+};
+
+function back() {
+    document.querySelector(".bigbag").dataset.show = "start";
+};
