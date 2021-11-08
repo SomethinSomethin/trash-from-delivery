@@ -31,9 +31,17 @@ document.body.onscroll = function() {
     }
 }
 
+function show_Detleyentafo() {
+    document.querySelector(".menufood").dataset.show = "yentafo";
+};
+
 function show_Detlericechicken() {
     document.querySelector(".menufood").dataset.show = "ricechicken";
-    console.log("dd")
+};
+
+function show_Detlekapu() {
+    document.querySelector(".menufood").dataset.show = "kapu";
+    console.log("jimrobo");
 };
 
 function back() {
