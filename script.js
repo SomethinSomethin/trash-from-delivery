@@ -30,3 +30,13 @@ document.body.onscroll = function() {
         document.querySelector("#bagglass").dataset.scene = 0
     }
 }
+
+function show_Detlericechicken() {
+    document.querySelector(".menufood").dataset.show = "ricechicken";
+    console.log("dd")
+};
+
+function back() {
+    document.querySelector(".menufood").dataset.show = "start";
+    window.scroll(0, 3000);
+};

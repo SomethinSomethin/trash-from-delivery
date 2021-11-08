@@ -81,227 +81,353 @@
          height: 90vw;
          /* background-color: rgb(0, 26, 255); */
      }
-     @media (min-width: 576px) {
-         body {
-             overflow-x: hidden!important;
-         }
-         .logo {
-             margin-top: 6vw;
-         }
-         .logoimg {
-             width: 10vh;
-         }
-         .receipt {
-             width: 50vw;
-             top: 5vh;
-         }
-         #condi-1 {
-             top: 50vw;
-         }
-         #condi-2 {
-             top: 100vw;
-         }
-         #condi-3 {
-             top: 150vw;
-         }
-         .fullwidth {
-             width: 400px;
-         }
-         .bagwidth {
-             width: 50vw;
-         }
-         .kapuwidth {
-             width: 30vw;
-         }
-         .yentafowidth {
-             width: 30vw;
-         }
-         .riecewidth {
-             width: 10vw;
-         }
-         .yentafo {
-             position: absolute;
-             top: 50px;
-             right: 5vw;
-             width: 30vw;
-         }
-         .kapu {
-             position: absolute;
-             top: 30px;
-             right: -40vw;
-             width: 40vw;
-         }
-         .rice {
-             position: absolute;
-             top: 100px;
-             right: -10vw;
-             width: 35vw;
-         }
-         #bagcondi-2 {
-             width: 200px;
-             left: 10vw;
-             height: 70vw;
-             /* background-color: rgb(0, 26, 255); */
-         }
+ }
+ 
+ @media (min-width: 576px) {
+     body {
+         overflow-x: hidden!important;
      }
-     /* // Medium devices (tablets, 768px and up) */
-     @media (min-width: 768px) {
-         .logo {
-             margin-top: 2vw;
-         }
-         .logoimg {
-             width: 35vh;
-         }
-         .receipt {
-             width: 30vw;
-             top: 5vh;
-         }
-         #condi-1 {
-             top: 20vw;
-         }
-         #condi-2 {
-             top: 60vw;
-         }
-         #condi-3 {
-             top: 90vw;
-         }
-         .fullwidth {
-             width: 400px;
-         }
-         .bagwidth {
-             width: 50vw;
-         }
-         .kapuwidth {
-             width: 30vw;
-         }
-         .yentafowidth {
-             width: 30vw;
-         }
-         .riecewidth {
-             width: 10vw;
-         }
-         .yentafo {
-             position: absolute;
-             top: 100px;
-             right: -3vw;
-             width: 30vw;
-         }
-         .kapu {
-             position: absolute;
-             top: 50px;
-             right: -50vw;
-             width: 40vw;
-             /* object-fit: none;
-                    object-position: 100% 0; */
-         }
-         .rice {
-             position: absolute;
-             top: 200px;
-             right: -20vw;
-             width: 35vw;
-         }
-         #bagcondi-2 {
-             width: 200px;
-             left: 10vw;
-             height: 60vw;
-             /* background-color: rgb(0, 26, 255); */
-         }
+     .logo {
+         margin-top: 6vw;
      }
-     /* // Large devices (desktops, 992px and up) */
-     @media (min-width: 992px) {}
-     /* // Extra large devices (large desktops, 1200px and up) */
-     @media (min-width: 1200px) {}
+     .logoimg {
+         width: 10vh;
+     }
+     .receipt {
+         width: 50vw;
+         top: 5vh;
+     }
+     #condi-1 {
+         top: 50vw;
+     }
+     #condi-2 {
+         top: 100vw;
+     }
+     #condi-3 {
+         top: 150vw;
+     }
+     .fullwidth {
+         width: 400px;
+     }
+     .bagwidth {
+         width: 50vw;
+     }
+     .kapuwidth {
+         width: 30vw;
+     }
+     .yentafowidth {
+         width: 30vw;
+     }
+     .riecewidth {
+         width: 10vw;
+     }
+     .yentafo {
+         position: absolute;
+         top: 50px;
+         right: 5vw;
+         width: 30vw;
+     }
+     .kapu {
+         position: absolute;
+         top: 30px;
+         right: -40vw;
+         width: 40vw;
+     }
+     .rice {
+         position: absolute;
+         top: 100px;
+         right: -10vw;
+         width: 35vw;
+     }
+     #bagcondi-2 {
+         width: 200px;
+         left: 10vw;
+         height: 70vw;
+         /* background-color: rgb(0, 26, 255); */
+     }
+ }
+ /* // Medium devices (tablets, 768px and up) */
+ 
+ @media (min-width: 768px) {
      .logo {
          margin-top: 2vw;
      }
-     .big-receipt {
-         height: 300vh;
-         position: relative;
-         /* background-color: blue; */
+     .logoimg {
+         width: 35vh;
      }
      .receipt {
-         position: sticky;
-         height: 120vh;
-         /* width: 30vw; */
-         /* background-color: blanchedalmond; */
+         width: 30vw;
+         top: 5vh;
      }
      #condi-1 {
-         width: 5vh;
-         left: 200px;
-         height: 5vh;
-         /* background-color: red; */
-         position: absolute;
-         z-index: 2;
+         top: 20vw;
      }
      #condi-2 {
-         width: 5vh;
-         left: 200px;
-         height: 5vh;
-         /* background-color: brown; */
-         position: absolute;
-         z-index: 2;
+         top: 60vw;
      }
      #condi-3 {
-         width: 5vh;
-         left: 200px;
-         height: 5vh;
-         /* background-color: rgb(0, 255, 21); */
-         position: absolute;
-         z-index: 2;
+         top: 90vw;
      }
-     #RC-1 {
-         display: none;
+     .fullwidth {
+         width: 400px;
      }
-     #RC-2 {
-         display: none;
-     }
-     #RC-3 {
-         display: none;
-     }
-     #RC-4 {
-         display: none;
-     }
-     .big-receipt[data-scene="1"] #RC-1 {
-         animation: baiset 0.7s;
-         display: flex;
-     }
-     .big-receipt[data-scene="2"] #RC-2 {
-         animation: baiset 0.7s;
-         display: flex;
-     }
-     .big-receipt[data-scene="3"] #RC-3 {
-         animation: baiset 0.7s;
-         display: flex;
-     }
-     .big-receipt[data-scene="4"] #RC-4 {
-         animation: baiset 0.7s;
-         display: flex;
-     }
-     .bigbag {
-         position: relative;
-     }
-     .bag {
-         position: absolute;
+     .bagwidth {
          width: 50vw;
-         transition: all 0.5s;
-         left: 25vw;
-         z-index: 2;
      }
-     #bagglass {
-         left: 0%;
+     .kapuwidth {
+         width: 30vw;
      }
-     #bagglass[data-scene="1"] .bag {
-         left: -80vw;
-         transform: rotate(180deg);
+     .yentafowidth {
+         width: 30vw;
      }
-     .info {
+     .riecewidth {
+         width: 10vw;
+     }
+     .yentafo {
          position: absolute;
-         background-color: blue;
-         height: 120vw;
-         width: 100%;
-         /* top: 400vh; */
+         top: 100px;
+         right: -3vw;
+         width: 30vw;
      }
-     .infoimg {
+     .kapu {
+         position: absolute;
+         top: 50px;
+         right: -50vw;
+         width: 40vw;
+         /* object-fit: none;
+                    object-position: 100% 0; */
+     }
+     .rice {
+         position: absolute;
+         top: 200px;
+         right: -20vw;
+         width: 35vw;
+     }
+     #bagcondi-2 {
          width: 200px;
+         left: 10vw;
+         height: 60vw;
+         /* background-color: rgb(0, 26, 255); */
      }
+ }
+ /* // Large devices (desktops, 992px and up) */
+ 
+ @media (min-width: 992px) {}
+ /* // Extra large devices (large desktops, 1200px and up) */
+ 
+ @media (min-width: 1200px) {}
+ 
+ .logo {
+     margin-top: 2vw;
+ }
+ 
+ .big-receipt {
+     height: 300vh;
+     position: relative;
+     /* background-color: blue; */
+ }
+ 
+ .receipt {
+     position: sticky;
+     height: 120vh;
+     /* width: 30vw; */
+     /* background-color: blanchedalmond; */
+ }
+ 
+ #condi-1 {
+     width: 5vh;
+     left: 200px;
+     height: 5vh;
+     /* background-color: red; */
+     position: absolute;
+     z-index: 2;
+ }
+ 
+ #condi-2 {
+     width: 5vh;
+     left: 200px;
+     height: 5vh;
+     /* background-color: brown; */
+     position: absolute;
+     z-index: 2;
+ }
+ 
+ #condi-3 {
+     width: 5vh;
+     left: 200px;
+     height: 5vh;
+     /* background-color: rgb(0, 255, 21); */
+     position: absolute;
+     z-index: 2;
+ }
+ 
+ #RC-1 {
+     display: none;
+ }
+ 
+ #RC-2 {
+     display: none;
+ }
+ 
+ #RC-3 {
+     display: none;
+ }
+ 
+ #RC-4 {
+     display: none;
+ }
+ 
+ .big-receipt[data-scene="1"] #RC-1 {
+     animation: baiset 0.7s;
+     display: flex;
+ }
+ 
+ .big-receipt[data-scene="2"] #RC-2 {
+     animation: baiset 0.7s;
+     display: flex;
+ }
+ 
+ .big-receipt[data-scene="3"] #RC-3 {
+     animation: baiset 0.7s;
+     display: flex;
+ }
+ 
+ .big-receipt[data-scene="4"] #RC-4 {
+     animation: baiset 0.7s;
+     display: flex;
+ }
+ 
+ .bigbag {
+     position: relative;
+ }
+ 
+ .bag {
+     position: absolute;
+     width: 50vw;
+     transition: all 0.5s;
+     left: 25vw;
+     z-index: 2;
+ }
+ 
+ #bagglass {
+     left: 0%;
+ }
+ 
+ #bagglass[data-scene="1"] .bag {
+     left: -80vw;
+     transform: rotate(180deg);
+ }
+ 
+ .info {
+     position: absolute;
+     background-color: blue;
+     height: 230vw;
+     width: 100%;
+     left: 100%;
+     /* top: 400vh; */
+ }
+ 
+ #infoimg {
+     width: 40vw;
+ }
+ 
+ #infoimg2 {
+     width: 20vw;
+ }
+ 
+ #infoimg3 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg4 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg5 {
+     width: 18vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg6 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg7 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg8 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimg9 {
+     width: 12vw;
+     margin-top: 3vw;
+ }
+ 
+ #textinfo_r_1 {
+     position: absolute;
+     top: 20vw;
+ }
+ 
+ #textinfo_r_2 {
+     position: absolute;
+     top: 50vw;
+ }
+ 
+ #textinfo_r_3 {
+     position: absolute;
+     top: 76vw;
+ }
+ 
+ #textinfo_r_4 {
+     position: absolute;
+     top: 98vw;
+ }
+ 
+ #textinfo_r_5 {
+     position: absolute;
+     top: 127vw;
+ }
+ 
+ #textinfo_r_6 {
+     position: absolute;
+     top: 154vw;
+ }
+ 
+ #textinfo_r_7 {
+     position: absolute;
+     top: 176vw;
+ }
+ 
+ #textinfo_r_8 {
+     position: absolute;
+     top: 198vw;
+ }
+ 
+ #textinfo_r_9 {
+     position: absolute;
+     top: 213vw;
+ }
+ 
+ #back_but_R {
+     margin-top: 2vh;
+     width: 3vw;
+ }
+ 
+ .menufood[data-show="kapu"] .detail_kapu {
+     left: 0%;
+ }
+ 
+ .menufood[data-show="yentafo"] .detail_yentafo {
+     left: 0%;
+ }
+ 
+ .menufood[data-show="ricechicken"] .info {
+     left: 0%;
  }
