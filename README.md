@@ -1,1 +1,0 @@
-# trash-from-delivery

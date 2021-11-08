@@ -4,310 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>trash-from-delivery</title>
+    <title>Document</title>
 </head>
 
-<body>
+<body class="jimrobain">
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <!---->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <img class="receipt-img" src="./IMG/ใบเสร็จกาง ซูม 1 desktop.png" style="height: 100%;" onclick="close_mod()">
-        </div>
-    </div>
 
-    <!---->
-    <div>
-        <span id="varY">0</span>
-    </div>
     <div class="container-fluid">
+        <div>
+            <span id="varY">0</span>
+        </div>
         <div class="row">
-            <div class="col-12">
-                <div class="logo"><img src="./IMG/Logo Desktop.png"></div>
+            <div class="col-md-6 col-sm-6">
+                <div class="logo d-flex justify-content-md-center d-flex justify-content-sm-center">
+                    <img src="./IMG/Logo Desktop.png" alt="" class="logoimg">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <div id="condi-1"></div>
                 <div id="condi-2"></div>
                 <div id="condi-3"></div>
                 <div id="condi-4"></div>
-                <div class="big-receipt" data-scene="1">
+                <div class="big-receipt d-flex justify-content-center">
                     <div class="receipt">
-                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 1 desktop.png" id="RC-1">
-                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 2 desktop.png" id="RC-2">
-                        <img class="receipt-img" src="./IMG/ใบเสร็จพับ 3 desktop.png" id="RC-3">
-                        <img class="receipt-img" src="./IMG/ใบเสร็จกาง 1 desktop.png" id="RC-4">
-                        <img class="receipt-img" src="./IMG/ปุ่มบวก.svg" id="RC-5" onclick="pop()">
+                        <img src="./IMG/ใบเสร็จพับ 1 desktop.png" alt="" class="fullwidth mx-auto" id="RC-1">
+                        <img src="./IMG/ใบเสร็จพับ 2 desktop.png" alt="" class="fullwidth mx-auto" id="RC-2">
+                        <img src="./IMG/ใบเสร็จพับ 3 desktop.png" alt="" class="fullwidth mx-auto" id="RC-3">
+                        <img src="./IMG/ใบเสร็จกาง 1 desktop.png" alt="" class="fullwidth mx-auto" id="RC-4">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" d-flex justify-content-center" data-scene="1" id="bagglass">
+                        <div id="bagcondi-2"></div>
+                        <img src="./IMG/ถุงอาหารรวม desktop.png" alt="" class="bag">
+                        <div style="position: relative;">
+                            <img src="./IMG/เย็นตาโฟ desktop.png" alt="" class="yentafo">
+                            <img src="./IMG/คาปูหน้ารวม desktop.png" alt="" class="kapu">
+                            <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" class="rice">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-
-            <div class="col-12 bigbag" data-scene="1" data-show="start">
-                <div id="bagcondi-1"></div>
-                <div id="bagcondi-2"></div>
-                <div class="bag" id="bag"> <img src="./IMG/ถุงอาหารรวม desktop.png" alt="" id="fullwidth"></div>
-                <div class="detail_kapu">
-                    <div class="img_info1">
-                        <img src="./IMG/คาปูหน้ารวม desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info1">
-                        <p>กาแฟคาปูชิโน</p>
-                    </div>
-                    <div class="img_info2">
-                        <img src="./IMG/ถุงหิ้วคาปูชิโน desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info2">
-                        <p>ชื่อขยะ ถุงหิ้วแก้ว</p>
-                        <p>ถุงหิ้วแก้วประเภท พลาสติก PET</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info3">
-                        <img src="./IMG/ถุงใส่กาแฟ desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info3">
-                        <p>ชื่อขยะ</p>
-                        <p>ประเภท พลาสติก PET</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info4">
-                        <img src="./IMG/หลอดพลาสติก desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info4">
-                        <p>ชื่อขยะ หลอดพลาสติก </p>
-                        <p>ประเภท พลาสติก PET</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info5">
-                        <img src="./IMG/ฝาแก้ว desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info5 ">
-                        <p>ชื่อขยะ ฝาแก้ว </p>
-                        <p>ประเภท พลาสติก PET</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info6">
-                        <img src="./IMG/3_cup 1.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info6 ">
-                        <p>ชื่อขยะ แก้ว </p>
-                        <p>ประเภท พลาสติก PET</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info7">
-                        <img src="./IMG/หนังยาง desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info7">
-                        <p>ชื่อขยะ แก้ว </p>
-                        <p>ประเภท ยาง PET</p>
-                        <p>ระยะเวลาย่อยสลาย 1 ปี</p>
-                    </div>
-                    <div class="back_icon">
-                        <a href="#!" onclick="back()"><img src="./IMG/ปุ่มกลับ คาปูชิโน desktop.png" id="fullwidth " style="margin-top: 20vh; "></a>
+            <div class="row">
+                <div class="info">
+                    <div class="row d-flex justify-content-center">
+                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" mx-auto class="infoimg" style="">
+                        <h3>ข้าวมันไก่ผสม</h3>
                     </div>
                 </div>
-                <div class="detail_yentafo ">
-                    <div class="img_info1_yen">
-                        <img src="./IMG/เย็นตาโฟ desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info1_yen">
-                        <p>เย็นตาโฟ</p>
-                    </div>
-                    <div class="img_info2_yen">
-                        <img src="./IMG/ถุงซุป desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info2_yen">
-                        <p>ชื่อขยะ ถุงซุป</p>
-                        <p>ถุงหิ้วแก้วประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info3_yen">
-                        <img src="./IMG/พลาสติกห่ออาหาร desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info3_yen">
-                        <p>ชื่อขยะ พลาสติกห่ออาหาร</p>
-                        <p>ประเภท ถุงซุป LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info4_yen">
-                        <img src="./IMG/ถุงเกี๊ยว desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info4_yen">
-                        <p>ชื่อขยะ ถุงเกี๊ยว </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info5_yen">
-                        <img src="./IMG/ซองเครื่องปรุง desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info5_yen ">
-                        <p>ชื่อขยะ ซองเครื่องปรุง </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info6_yen">
-                        <img src="./IMG/ช้อนพลาสติกเย็นตาโฟ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info6_yen ">
-                        <p>ชื่อขยะ ช้อนพลาสติก </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info7_yen">
-                        <img src="./IMG/ซองตะเกียบ  desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info7_yen">
-                        <p>ชื่อขยะ ซองตะเกียบ </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 1 ปี</p>
-                    </div>
-                    <div class="img_info8_yen">
-                        <img src="./IMG/หนังยางเย็นตาโฟ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info8_yen">
-                        <p>ชื่อขยะ หนังยาง </p>
-                        <p>ประเภท ยาง LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 1 ปี</p>
-                    </div>
-                    <div class="back_icon_yen">
-                        <a href="#!" onclick="back()"><img src="./IMG/ปุ่มกลับ คาปูชิโน desktop.png" id="fullwidth " style="margin-top: 20vh; "></a>
+                <div class="d-flex justify-content-center">
+                    <div class="foodinfo">
+                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" class=" mx-auto">
+
                     </div>
                 </div>
-                <div class="detail_ricechicken ">
-                    <div class="img_info1_rice">
-                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info1_rice">
-                        <p>ข้าวมันไก่ผสม</p>
-                    </div>
-                    <div class="img_info2_rice">
-                        <img src="./IMG/new-01 1.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info2_rice">
-                        <p>ชื่อขยะ กล่องโฟม</p>
-                        <p>ประเภท LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 1000 ปี</p>
-                    </div>
-                    <div class="img_info3_rice">
-                        <img src="./IMG/new-03 1.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info3_rice">
-                        <p>ชื่อขยะ พลาสติกรองกล่อง</p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info4_rice">
-                        <img src="./IMG/ถุงน้ำซุปข้าวมันไก่ desktop.png" alt="" id="fullwidth" style="margin-top: 20vh;">
-                    </div>
-                    <div class="text_info4_rice">
-                        <p>ชื่อขยะ ถุงน้ำซุป </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info5_rice">
-                        <img src="./IMG/ถุงน้ำจิ้มไก่ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info5_rice ">
-                        <p>ชื่อขยะ ถุงน้ำจิ้มไก่ </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info6_rice">
-                        <img src="./IMG/ถุงน้ำจิ้มข้าวมันไก่ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info6_rice ">
-                        <p>ชื่อขยะ ถุงน้ำจิ้มข้าวมันไก่</p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info7_rice">
-                        <img src="./IMG/new-05 1.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info7_rice">
-                        <p>ชื่อขยะ ถุงซีอิ้วดำ </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info8_rice">
-                        <img src="./IMG/ช้อนพลาสติกเย็นตาโฟ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info8_rice">
-                        <p>ชื่อขยะ ช้อนพลาสติก </p>
-                        <p>ประเภท พลาสติก LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 450 ปี</p>
-                    </div>
-                    <div class="img_info9_rice">
-                        <img src="./IMG/หนังยางเย็นตาโฟ desktop.png" id="fullwidth " style="margin-top: 20vh; ">
-                    </div>
-                    <div class="text_info9_rice">
-                        <p>ชื่อขยะ หนังยาง </p>
-                        <p>ประเภท ยาง LDPE</p>
-                        <p>ระยะเวลาย่อยสลาย 1 ปี</p>
-                    </div>
-                    <div class="back_icon_rice">
-                        <a href="#!" onclick="back()"><img src="./IMG/ปุ่มกลับ คาปูชิโน desktop.png" id="fullwidth " style="margin-top: 20vh; "></a>
+
+
+
+
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <a href="" style="text-decoration: none;">ข้าวมันไก่ผสม ></a>
                     </div>
                 </div>
-                <div class="bagforfood " data-scene="0 ">
 
-                    <div class="kapu ">
-                        <img src="./IMG/คาปูหน้ารวม desktop.png " alt=" " id="fullwidth " style="margin-top: 20vh; ">
-                        <br>
-                        <a href="#! " class="click " onclick="show_Detlekapu() ">คาปูชิโน ></a>
-                    </div>
-                    <!-- <div class="click1 "></div> -->
-
-                    <div class="yentafo ">
-                        <img src="./IMG/เย็นตาโฟ desktop.png " alt=" " id="fullwidth " style="margin-top: 20vh; ">
-                        <br>
-                        <a href="#! " class="click " onclick="show_Detleyentafo() ">เย็นตาโฟ ></a>
-                    </div>
-
-
-                    <div class="ricechicken ">
-                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png " alt=" " id="fullwidth " style="margin-top: 20vh; ">
-                        <br>
-                        <a href="#! " class="click " onclick="show_Detlericechicken() ">ข้าวมันไก่ ></a>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <div class="foodinfo">
+                            <img src="./IMG/เย็นตาโฟ desktop.png" alt="" class=" mx-auto">
+                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <a href="" style="text-decoration: none;">เย็นตาโฟ ></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <div class="foodinfo">
+                            <img src="./IMG/คาปูหน้ารวม desktop.png" alt="" class=" mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <a href="" style="text-decoration: none;">คาปูชิโน ></a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </div>
-
-    <!-- <div class="row " style="margin-bottom: 20%; ">
-            <div class="col-4 "></div>
-            <div class="col-4 ">
-                <div class="ricechicken-1 ">
-                    <a href=" ">
-                        <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png " alt=" " id="fullwidth ">
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        <div class="row " style="margin-bottom: 20%; ">
-            <div class="col-4 "></div>
-            <div class="col-4 ">
-                <div class="kapu-1 ">
-                    <a href=" ">
-                        <img src="./IMG/คาปูหน้ารวม desktop.png " alt=" " id="fullwidth ">
-                    </a>
-                </div>
-
-            </div>
-        </div> -->
-
-
+    </div>
 
     </div>
+
+
+
+
 
 </body>
 
