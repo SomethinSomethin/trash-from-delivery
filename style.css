@@ -422,7 +422,7 @@
      background-color: black;
      height: 230vw;
      width: 100%;
-     left: 100%;
+     left: 120%;
      /* top: 400vh; */
      transition: all 0.5s;
  }
@@ -432,7 +432,7 @@
      background-color: black;
      height: 230vw;
      width: 100%;
-     left: 100%;
+     left: 120%;
      /* top: 400vh; */
      transition: all 0.5s;
  }
@@ -442,7 +442,7 @@
      background-color: black;
      height: 230vw;
      width: 100%;
-     left: 100%;
+     left: 120%;
      /* top: 400vh; */
      transition: all 0.5s;
  }
@@ -535,10 +535,176 @@
      position: absolute;
      top: 213vw;
  }
+ /*  */
+ 
+ #infoimgy {
+     width: 40vw;
+ }
+ 
+ #infoimgy2 {
+     width: 20vw;
+ }
+ 
+ #infoimgy3 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy4 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy5 {
+     width: 18vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy6 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy7 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy8 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgy9 {
+     width: 12vw;
+     margin-top: 3vw;
+ }
+ 
+ #textinfo_y_1 {
+     position: absolute;
+     top: 20vw;
+     font-size: 2vw;
+ }
+ 
+ #textinfo_y_2 {
+     position: absolute;
+     top: 50vw;
+ }
+ 
+ #textinfo_y_3 {
+     position: absolute;
+     top: 76vw;
+ }
+ 
+ #textinfo_y_4 {
+     position: absolute;
+     top: 98vw;
+ }
+ 
+ #textinfo_y_5 {
+     position: absolute;
+     top: 127vw;
+ }
+ 
+ #textinfo_y_6 {
+     position: absolute;
+     top: 154vw;
+ }
+ 
+ #textinfo_y_7 {
+     position: absolute;
+     top: 176vw;
+ }
+ 
+ #textinfo_y_8 {
+     position: absolute;
+     top: 198vw;
+ }
+ 
+ #textinfo_y_9 {
+     position: absolute;
+     top: 213vw;
+ }
+ /*  */
+ /*  */
+ 
+ #infoimgk {
+     width: 40vw;
+ }
+ 
+ #infoimgk2 {
+     width: 20vw;
+ }
+ 
+ #infoimgk3 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgk4 {
+     width: 20vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgk5 {
+     width: 18vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgk6 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #infoimgyk7 {
+     width: 15vw;
+     margin-top: 3vw;
+ }
+ 
+ #textinfo_k_1 {
+     position: absolute;
+     top: 20vw;
+     font-size: 2vw;
+ }
+ 
+ #textinfo_k_2 {
+     position: absolute;
+     top: 50vw;
+ }
+ 
+ #textinfo_k_3 {
+     position: absolute;
+     top: 76vw;
+ }
+ 
+ #textinfo_k_4 {
+     position: absolute;
+     top: 98vw;
+ }
+ 
+ #textinfo_k_5 {
+     position: absolute;
+     top: 127vw;
+ }
+ 
+ #textinfo_k_6 {
+     position: absolute;
+     top: 154vw;
+ }
+ 
+ #textinfo_k_7 {
+     position: absolute;
+     top: 176vw;
+ }
+ /*  */
  
  #back_but_R {
      margin-top: 2vh;
      width: 3vw;
+ }
+ 
+ .menufood {
+     padding: 0%;
  }
  
  .menufood[data-show="kapu"] .detail_kapu {
