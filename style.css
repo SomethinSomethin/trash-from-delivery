@@ -508,6 +508,7 @@
 #textinfo_r_2 {
     position: absolute;
     top: 50vw;
+    font-size: 2vw;
 }
 
 #textinfo_r_3 {
@@ -746,6 +747,30 @@
 
 .size_img_food {
     width: 35vw;
+}
+
+.sizetextinfo {
+    font-size: 2vw;
+}
+
+#receipt_again {
+    width: 25vw;
+    margin-top: 25vh;
+}
+
+.big_plastic {
+    height: 200vh;
+    background-color: blue;
+    position: relative;
+}
+
+.plastic {
+    height: 20vh;
+    background-color: brown;
+    z-index: 2;
+    width: 100%;
+    position: sticky;
+    top: 5vh;
 }
 
 
