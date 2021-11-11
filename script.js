@@ -25,7 +25,7 @@ document.body.onscroll = function() {
     var bagcondi2Top = bagcondi2.offsetTop;
     if (scrollY + window.innerHeight - (bagcondi2.offsetHeight) >= bagcondi2Top) {
         document.querySelector("#bagglass").dataset.scene = 1
-        console.log("่jim")
+
     } else {
         document.querySelector("#bagglass").dataset.scene = 0
     }
@@ -48,27 +48,28 @@ document.body.onscroll = function() {
     var condip6Top = condip6.offsetTop;
     var condip7Top = condip7.offsetTop;
     var condip8Top = condip8.offsetTop;
-    var Y = window.getComputedStyle(condip_1, null).getPropertyValue('top');
-    console.log(Y);
+    console.log(condpi1Top);
+    let chk = document.getElementById("cheackrow").getBoundingClientRect().y
+    console.log((chk - viewHeight) * -1);
 
-    if (scrollY + window.innerHeight - (condip1.offsetHeight) >= condpi1Top && scrollY < condpi1Top) {
-        document.querySelector(".psall").dataset.scene = 0
-    } else if (scrollY + window.innerHeight - (condip2.offsetHeight) >= condip2Top && scrollY < condip2Top) {
+
+    if (((chk - viewHeight) * -1 >= condpi1Top) && ((chk - viewHeight) * -1 < condip2Top)) {
         document.querySelector(".psall").dataset.scene = 1
-    } else if (scrollY + window.innerHeight - (condip3.offsetHeight) >= condip3Top && scrollY < condip3Top) {
+    } else if (((chk - viewHeight) * -1 >= condip2Top) && ((chk - viewHeight) * -1 < condip3Top)) {
         document.querySelector(".psall").dataset.scene = 2
-    } else if (scrollY + window.innerHeight - (condip4.offsetHeight) >= condip4Top && scrollY < condip4Top) {
+    } else if (((chk - viewHeight) * -1 >= condip3Top) && ((chk - viewHeight) * -1 < condip4Top)) {
         document.querySelector(".psall").dataset.scene = 3
-    } else if (scrollY + window.innerHeight - (condip5.offsetHeight) >= condpi5Top && scrollY < condpi5Top) {
+    } else if (((chk - viewHeight) * -1 >= condip4Top) && ((chk - viewHeight) * -1 < condpi5Top)) {
         document.querySelector(".psall").dataset.scene = 4
-    } else if (scrollY + window.innerHeight - (condip6.offsetHeight) >= condip6Top && scrollY < condip6Top) {
+    } else if (((chk - viewHeight) * -1 >= condpi5Top) && ((chk - viewHeight) * -1 < condip6Top)) {
         document.querySelector(".psall").dataset.scene = 5
-    } else if (scrollY + window.innerHeight - (condip7.offsetHeight) >= condip7Top && scrollY < condip7Top) {
+    } else if (((chk - viewHeight) * -1 >= condip6Top) && ((chk - viewHeight) * -1 < condip7Top)) {
         document.querySelector(".psall").dataset.scene = 6
-    } else if (scrollY + window.innerHeight - (condip8.offsetHeight) >= condip8Top && scrollY < condip8Top) {
+    } else if ((chk - viewHeight) * -1 >= condip7Top) {
         document.querySelector(".psall").dataset.scene = 7
+    } else {
+        document.querySelector(".psall").dataset.scene = 0
     }
-
 
 
 

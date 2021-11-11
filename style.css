@@ -259,7 +259,7 @@
         margin-top: 2vw;
     }
     .logoimg {
-        width: 35vh;
+        width: 5570vh;
     }
     .receipt {
         width: 30vw;
@@ -316,28 +316,28 @@
         /* background-color: rgb(0, 26, 255); */
     }
     #condip_1 {
-        top: 750vh;
+        top: 30vh;
     }
     #condip-2 {
-        top: 770vh;
+        top: 60vh;
     }
     #condip-3 {
-        top: 800vh;
+        top: 90vh;
     }
     #condip-4 {
-        top: 830vh;
+        top: 120vh;
     }
     #condip-5 {
-        top: 860vh;
+        top: 150vh;
     }
     #condip-6 {
-        top: 890vh;
+        top: 180vh;
     }
     #condip-7 {
-        top: 920vh;
+        top: 210vh;
     }
     #condip-8 {
-        top: 950vh;
+        top: 240vh;
     }
 }
 
@@ -807,7 +807,7 @@
 }
 
 .big_plastic {
-    height: 700vh;
+    height: 500vh;
     background-color: blue;
     position: relative;
 }
@@ -818,7 +818,7 @@
     z-index: 2;
     width: 100%;
     position: sticky;
-    top: 0;
+    top: 10vh;
 }
 
 #widht_plastic {
