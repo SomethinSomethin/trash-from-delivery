@@ -1,4 +1,4 @@
-document.body.onscroll = function() {
+document.body.onscroll = function () {
     let scrollY = window.scrollY;
     let viewHeight = window.innerHeight;
     document.querySelector("#varY").innerText = scrollY;
@@ -48,9 +48,9 @@ document.body.onscroll = function() {
     var condip6Top = condip6.offsetTop;
     var condip7Top = condip7.offsetTop;
     var condip8Top = condip8.offsetTop;
-    console.log(condpi1Top);
+    // console.log(condpi1Top);
     let chk = document.getElementById("cheackrow").getBoundingClientRect().y
-    console.log((chk - viewHeight) * -1);
+    // console.log((chk - viewHeight) * -1);
 
 
     if (((chk - viewHeight) * -1 >= condpi1Top) && ((chk - viewHeight) * -1 < condip2Top)) {
@@ -70,25 +70,40 @@ document.body.onscroll = function() {
     } else {
         document.querySelector(".psall").dataset.scene = 0
     }
+    // จอร์ชช
+    var beegBut = document.getElementById("condi-but");
+    var beegButTop = beegBut.offsetTop;
+    
+    let butchk = document.getElementById("contain-but").getBoundingClientRect().y
+    console.log(butchk - viewHeight);
 
-
-
+    if ((butchk - viewHeight) * -1 >= beegButTop){
+        document.querySelector(".rpbg").dataset.scene = 1
+    }else{
+        document.querySelector(".rpbg").dataset.scene = 0
+    }
+    // if (scrollY + window.innerHeight - (beegBut.offsetHeight) >= beegButTop && scrollY < beegButTop) {
+    //     
+    // }else{
+    //     
+    // }
 }
 
-function show_Detleyentafo() {
-    document.querySelector(".menufood").dataset.show = "yentafo";
-};
+    function show_Detleyentafo() {
+        document.querySelector(".menufood").dataset.show = "yentafo";
+    };
 
-function show_Detlericechicken() {
-    document.querySelector(".menufood").dataset.show = "ricechicken";
-};
+    function show_Detlericechicken() {
+        document.querySelector(".menufood").dataset.show = "ricechicken";
+    };
 
-function show_Detlekapu() {
-    document.querySelector(".menufood").dataset.show = "kapu";
-    console.log("jimrobo");
-};
+    function show_Detlekapu() {
+        document.querySelector(".menufood").dataset.show = "kapu";
+        console.log("jimrobo");
+    };
 
-function back() {
-    document.querySelector(".menufood").dataset.show = "start";
-    window.scroll(0, 3000);
-};
+    function back() {
+        document.querySelector(".menufood").dataset.show = "start";
+        window.scroll(0, 3000);
+    };
+
