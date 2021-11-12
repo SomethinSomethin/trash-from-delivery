@@ -225,6 +225,30 @@
         height: 70vw;
         /* background-color: rgb(0, 26, 255); */
     }
+    #condip-1 {
+        top: 770vh;
+    }
+    #condip-2 {
+        top: 800vh;
+    }
+    #condip-3 {
+        top: 830vh;
+    }
+    #condip-4 {
+        top: 860vh;
+    }
+    #condip-5 {
+        top: 890vh;
+    }
+    #condip-6 {
+        top: 920vh;
+    }
+    #condip-7 {
+        top: 950vh;
+    }
+    #condip-8 {
+        top: 980vh;
+    }
 }
 
 
@@ -235,7 +259,7 @@
         margin-top: 2vw;
     }
     .logoimg {
-        width: 35vh;
+        width: 5570vh;
     }
     .receipt {
         width: 30vw;
@@ -291,29 +315,29 @@
         height: 60vw;
         /* background-color: rgb(0, 26, 255); */
     }
-    #condip-1 {
-        top: 740vh;
+    #condip_1 {
+        top: 30vh;
     }
     #condip-2 {
-        top: 770vh;
+        top: 60vh;
     }
     #condip-3 {
-        top: 800vh;
+        top: 90vh;
     }
     #condip-4 {
-        top: 830vh;
+        top: 120vh;
     }
     #condip-5 {
-        top: 770vh;
+        top: 150vh;
     }
     #condip-6 {
-        top: 800vh;
+        top: 180vh;
     }
     #condip-7 {
-        top: 740vh;
+        top: 210vh;
     }
     #condip-8 {
-        top: 770vh;
+        top: 240vh;
     }
 }
 
@@ -783,7 +807,7 @@
 }
 
 .big_plastic {
-    height: 700vh;
+    height: 500vh;
     background-color: blue;
     position: relative;
 }
@@ -794,7 +818,7 @@
     z-index: 2;
     width: 100%;
     position: sticky;
-    top: 0;
+    top: 10vh;
 }
 
 #widht_plastic {
@@ -1046,14 +1070,13 @@
     opacity: 1;
 }
 
-#condip-1 {
+#condip_1 {
     width: 5vh;
     left: 200px;
     height: 5vh;
     background-color: rgb(0, 255, 21);
     position: absolute;
     z-index: 3;
-    top: 740vh;
 }
 
 #condip-2 {
@@ -1063,7 +1086,6 @@
     background-color: rgb(255, 196, 0);
     position: absolute;
     z-index: 3;
-    top: 770vh;
 }
 
 #condip-3 {
@@ -1073,7 +1095,6 @@
     background-color: rgb(255, 232, 155);
     position: absolute;
     z-index: 3;
-    top: 800vh;
 }
 
 #condip-4 {
@@ -1083,7 +1104,6 @@
     background-color: rgb(155, 218, 255);
     position: absolute;
     z-index: 3;
-    top: 830vh;
 }
 
 #condip-5 {
@@ -1093,7 +1113,6 @@
     background-color: rgb(255, 0, 0);
     position: absolute;
     z-index: 3;
-    top: 860vh;
 }
 
 #condip-6 {
@@ -1103,7 +1122,6 @@
     background-color: rgb(90, 6, 45);
     position: absolute;
     z-index: 3;
-    top: 890vh;
 }
 
 #condip-7 {
@@ -1113,7 +1131,6 @@
     background-color: rgb(178, 61, 255);
     position: absolute;
     z-index: 3;
-    top: 920vh;
 }
 
 #condip-8 {
@@ -1123,7 +1140,6 @@
     background-color: rgb(255, 174, 0);
     position: absolute;
     z-index: 3;
-    top: 950vh;
 }
 
 
