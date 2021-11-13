@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 
-<body class="jimrobain">
+<body class="jimrobain" id="body">
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -41,11 +41,11 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div id="condi-1"></div>
-                <div id="condi-2"></div>
-                <div id="condi-3"></div>
-                <div id="condi-4"></div>
                 <div class="big-receipt d-flex justify-content-center">
+                    <div id="condi-1"></div>
+                    <div id="condi-2"></div>
+                    <div id="condi-3"></div>
+                    <div id="condi-4"></div>
                     <div class="receipt">
                         <img src="./IMG/ใบเสร็จพับ 1 desktop.png" alt="" class="fullwidth mx-auto" id="RC-1">
                         <img src="./IMG/ใบเสร็จพับ 2 desktop.png" alt="" class="fullwidth mx-auto" id="RC-2">
@@ -183,7 +183,7 @@
                     </div>
                 </div>
             </div>
-            <div class="info2">
+            <div class="info2" id="checkyenyafo">
                 <div class="row ">
                     <div class="col-8 d-flex justify-content-center">
                         <img src="./IMG/เย็นตาโฟ desktop.png" alt="" id="infoimgy" class="mx-auto">
@@ -228,6 +228,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- id="backyentafo" -->
                 <div class="row ">
                     <div class="col-8 d-flex justify-content-center">
                         <img src="./IMG/ซองเครื่องปรุง desktop.png" alt="" id="infoimgy5" class="mx-auto">
@@ -276,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row " id="backyentafo">
                     <div class="back_icon_rice d-flex justify-content-center">
                         <a href="#!" onclick="back()"><img src="./IMG/ปุ่มกลับ คาปูชิโน desktop.png" id="back_but_R" class="mx-auto"></a>
                     </div>
@@ -376,7 +377,7 @@
                         <img src="./IMG/ข้าวมันไก่ผสมหน้าแยก desktop.png" alt="" class="mx-auto size_img_food">
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center" id="cheackscrollyentafo">
                     <a href="#!" style="text-decoration: none;" onclick="show_Detlericechicken()">ข้าวมันไก่ผสม ></a>
                 </div>
                 <div class="d-flex justify-content-center " style="padding: 0cm;">
@@ -406,7 +407,6 @@
             </div>
         </div>
         <div class="row" style="margin-top: 25vh;">
-
             <div class="d-flex justify-content-center big_plastic" id="cheackrow">
                 <div id="condip_1"></div>
                 <div id="condip-2"></div>
@@ -416,10 +416,12 @@
                 <div id="condip-6"></div>
                 <div id="condip-7"></div>
                 <div id="condip-8"></div>
+
+
                 <div class="d-flex justify-content-center plastic">
-                    <div class="col-md-8 col-sm-12 psall" data-scene="0">
+                    <div class="col-md-8 col-sm-8 psall" data-scene="0">
                         <div class="row">
-                            <h3>ขยะพลาสติกจากการสั่งอาหารเดลิเวอรี่ปี 2562</h3>
+                            <h3 id="text_con1">ขยะพลาสติกจากการสั่งอาหารเดลิเวอรี่ปี 2562</h3>
                         </div>
                         <div class="row" id="ps-1">
                             <h4>2562 - 1,540 ล้านขึ้น</h4>
@@ -448,8 +450,14 @@
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <img src="./IMG/2565 trash desktop.png" alt="" id="widht_plastic">
                         </div>
+                        <div class="row" id="ps-4-1">
+                            <h4>2565 - 1,747 ล้านขึ้น</h4>
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+
+                            <img src="./IMG/2565 trash desktop.png" alt="" id="widht_plastic">
+                        </div>
                         <div class="row" id="ps-5">
-                            <h4>2566 - 5,285 ล้านขึ้น</h4>
+                            <h4>2566 - 1,921 ล้านขึ้น</h4>
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
@@ -457,14 +465,27 @@
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <!-- <img src="./IMG/2566 trash desktop.png" alt="" id="widht_plastic"> -->
                         </div>
+                        <div class="row" id="ps-5-1">
+                            <h4>2566 - 2,114 ล้านขึ้น</h4>
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+
+                            <!-- <img src="./IMG/2566 trash desktop.png" alt="" id="widht_plastic"> -->
+                        </div>
+
                         <div class="row" id="ps-6">
+                            <h4>2567 - 2,325 ล้านขึ้น</h4>
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+                            <!-- <img src="./IMG/PngItem_1972190 843.png" alt="" id="widht_plastic"> -->
+                        </div>
+                        <div class="row" id="ps-6-1">
                             <h4>2567 - 5,813 ล้านขึ้น</h4>
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
-                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
-                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
-                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
-                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
-                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+
                             <!-- <img src="./IMG/PngItem_1972190 843.png" alt="" id="widht_plastic"> -->
                         </div>
                         <div class="row" id="ps-7">
@@ -477,6 +498,15 @@
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
                             <!-- <img src="./IMG/2568 trash desktop.png" alt="" id="widht_plastic"> -->
+                        </div>
+                        <div class="row" id="ps-7-1">
+                            <h4>2568 - 6,395 ล้านขึ้น</h4>
+                            <img src="./IMG/PngItem_1972190 795.png" alt="" id="widht_plastic">
+
+                            <!-- <img src="./IMG/2568 trash desktop.png" alt="" id="widht_plastic"> -->
+                        </div>
+                        <div class="row" id="ps-8">
+                            <p>การอ้างอิง: บุญชนิด ว่องประพิณกูล และ สุจิตรา วาสนาดำรงดี. [2564]. "ขยะพลาสติกจากการสั่งอาหารออนไลน์" สถานการณ์ปัญหาและแนวทางแก้ไข [ตอนที่ 1]. วารสารสิ่งแวดล้อม, ปีที่ 25 [ฉบับที่ 1].</p>
                         </div>
                     </div>
                 </div>
