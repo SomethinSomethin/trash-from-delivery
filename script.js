@@ -52,7 +52,6 @@ document.body.onscroll = function() {
     let chk = document.getElementById("cheackrow").getBoundingClientRect().y
     console.log((chk - viewHeight) * -1);
 
-
     if (((chk - viewHeight) * -1 >= condpi1Top) && ((chk - viewHeight) * -1 < condip2Top)) {
         document.querySelector(".psall").dataset.scene = 1
     } else if (((chk - viewHeight) * -1 >= condip2Top) && ((chk - viewHeight) * -1 < condip3Top)) {
@@ -71,7 +70,14 @@ document.body.onscroll = function() {
         document.querySelector(".psall").dataset.scene = 0
     }
 
-
+    var bike_row = document.querySelector("#motorcycle");
+    var bike_row_top = document.querySelector("#motorcycle").offsetTop;
+    if (scrollY + window.innerHeight - (bike_row.offsetHeight) + 100 >= bike_row_top && scrollY < bike_row_top+500) {
+        document.querySelector("#motorcycle").dataset.bike = "active";    
+    } 
+    else {
+        document.querySelector("#motorcycle").dataset.bike = "others";
+    }
 
 }
 
@@ -92,3 +98,8 @@ function back() {
     document.querySelector(".menufood").dataset.show = "start";
     window.scroll(0, 3000);
 };
+
+function trashupdate(){
+    var reduceCount = document.querySelectorAll('input[type="checkbox"]:checked');
+    document.querySelector("#tickcount").innerText = reduceCount.length;
+}
