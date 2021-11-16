@@ -1,6 +1,7 @@
 .jimrobain {
     background-color: black;
     overflow-x: hidden;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 
@@ -24,10 +25,9 @@
     z-index: 4;
 }
 
-
 /* respondsive */
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
     body {
         overflow-x: hidden!important;
     }
@@ -38,38 +38,30 @@
         width: 15vh;
         left: 10vh;
     }
+    .big-receipt {
+        height: 240vh;
+        /* background-color: blue; */
+    }
     .receipt {
-        margin-top: 20vh;
+        height: 100vh;
         top: 5vh;
     }
     #condi-1 {
-        top: 70vw;
+        top: 40vh;
     }
     #condi-2 {
-        top: 200vw;
+        top: 80vh;
     }
     #condi-3 {
-        top: 330vw;
+        top: 120vh;
     }
     .fullwidth {
-        width: 350px;
-    }
-    .bagwidth {
-        width: 60vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
+        width: 80vw;
     }
     .yentafo {
         position: absolute;
         top: 25px;
-        right: 12vw;
+        right: 18vw;
         width: 30vw;
     }
     .kapu {
@@ -80,8 +72,8 @@
     }
     .rice {
         position: absolute;
-        top: 70px;
-        right: -15%;
+        top: 60px;
+        right: 7vw;
         width: 30vw;
     }
     #bagcondi-2 {
@@ -98,7 +90,78 @@
     }
 }
 
-@media (max-width: 375px) {
+/* respondsive */
+
+@media (min-width: 375px) {
+    body {
+        overflow-x: hidden!important;
+    }
+    .logo {
+        margin-top: 6vw;
+    }
+    .logoimg {
+        width: 15vh;
+        left: 10vh;
+    }
+    .big-receipt {
+        height: 280vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 120vh;
+        top: 5vh;
+    }
+    #condi-1 {
+        top: 50vh;
+    }
+    #condi-2 {
+        top: 100vh;
+    }
+    #condi-3 {
+        top: 150vh;
+    }
+    .fullwidth {
+        width: 80vw;
+    }
+    .bag{
+        width: 65vw;
+        transition: all 0.5s;
+        left: 25vw;
+        z-index: 2;
+    }
+    .yentafo {
+        position: absolute;
+        top: 25px;
+        right: 10vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 30px;
+        right: -30vw;
+        width: 40vw;
+    }
+    .rice {
+        position: absolute;
+        top: 70px;
+        right: 5vw;
+        width: 30vw;
+    }
+    #bagcondi-2 {
+        width: 200px;
+        left: 10vw;
+        height: 60vh;
+        /* background-color: rgb(0, 26, 255); */
+    }
+    #textinfo_r_1 {
+        font-size: 4vw;
+    }
+    #widht_plastic {
+        width: 70px;
+    }
+}
+
+/* @media (max-width: 375px) {
     body {
         overflow-x: hidden!important;
     }
@@ -160,14 +223,14 @@
         left: 10vw;
         height: 60vh;
         /* background-color: rgb(0, 26, 255); */
-    }
+    /* }
     #textinfo_r_1 {
         font-size: 4vw;
     }
     #widht_plastic {
         width: 70px;
     }
-}
+} */ 
 
 @media (min-width: 576px) {
     body {
@@ -177,35 +240,27 @@
         margin-top: 6vw;
     }
     .logoimg {
-        width: 10vh;
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 300vh;
+        /* background-color: blue; */
     }
     .receipt {
-        width: 50vw;
         top: 5vh;
+        height: 120vh;
     }
     #condi-1 {
-        top: 50vw;
+        top: 50vh;
     }
     #condi-2 {
-        top: 100vw;
+        top: 100vh;
     }
     #condi-3 {
-        top: 150vw;
+        top: 150vh;
     }
     .fullwidth {
         width: 400px;
-    }
-    .bagwidth {
-        width: 50vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
     }
     .yentafo {
         position: absolute;
@@ -221,8 +276,8 @@
     }
     .rice {
         position: absolute;
-        top: 100px;
-        right: -10vw;
+        top: 90px;
+        right: -7vw;
         width: 35vw;
     }
     #bagcondi-2 {
@@ -244,46 +299,38 @@
         margin-top: 2vw;
     }
     .logoimg {
-        width: 5570vh;
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 260vh;
+        /* background-color: blue; */
     }
     .receipt {
-        width: 30vw;
+        height: 110vh;
         top: 5vh;
     }
     #condi-1 {
-        top: 20vw;
+        top: 40vh;
     }
     #condi-2 {
-        top: 60vw;
+        top: 80vh;
     }
     #condi-3 {
-        top: 90vw;
+        top: 120vh;
     }
     .fullwidth {
         width: 400px;
     }
-    .bagwidth {
-        width: 50vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
-    }
     .yentafo {
         position: absolute;
         top: 5vw;
-        right: -3vw;
+        right: 1vw;
         width: 30vw;
     }
     .kapu {
         position: absolute;
         top: 50px;
-        right: -50vw;
+        right: -42vw;
         width: 40vw;
         /* object-fit: none;
                     object-position: 100% 0; */
@@ -291,7 +338,7 @@
     .rice {
         position: absolute;
         top: 15vw;
-        right: -15vw;
+        right: -8vw;
         width: 30vw;
     }
     #bagcondi-2 {
@@ -308,17 +355,123 @@
 
 /* // Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+    .logo {
+        margin-top: 2vw;
+    }
+    .logoimg {
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 220vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 100vh;
+        top: 5vh;
+    }
+    
+    #condi-1 {
+        top: 35vh;
+    }
+    #condi-2 {
+        top: 70vh;
+    }
+    #condi-3 {
+        top: 105vh;
+    }
+    .fullwidth {
+        width: 400px;
+    }
+    .yentafo {
+        position: absolute;
+        top: 5vw;
+        right: -3vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 50px;
+        right: -43vw;
+        width: 40vw;
+        /* object-fit: none;
+         object-position: 100% 0; */
+    }
+    .rice {
+        position: absolute;
+        top: 15vw;
+        right: -10vw;
+        width: 30vw;
+    }
     #bagcondi-2 {
         width: 200px;
         left: 10vw;
         height: 90vh;
         /* background-color: rgb(0, 26, 255); */
+    }
+    #widht_plastic {
+        width: 70px;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .logo {
+        margin-top: 2vw;
+    }
+    .logoimg {
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 350vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 150vh;
+        top: 5vh;
+    }
+    #condi-1 {
+        top: 60vh;
+    }
+    #condi-2 {
+        top: 120vh;
+    }
+    #condi-3 {
+        top: 180vh;
+    }
+    .fullwidth {
+        width: 400px;
+    }
+    .yentafo {
+        position: absolute;
+        top: 5vw;
+        right: -3vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 50px;
+        right: -45vw;
+        width: 40vw;
+        /* object-fit: none;
+         object-position: 100% 0; */
+    }
+    .rice {
+        position: absolute;
+        top: 15vw;
+        right: -10vw;
+        width: 30vw;
+    }
+    #bagcondi-2 {
+        width: 200px;
+        left: 10vw;
+        height: 90vh;
+        /* background-color: rgb(0, 26, 255); */
+    }
+    #widht_plastic {
+        width: 70px;
     }
 }
 
@@ -327,14 +480,14 @@
 }
 
 .big-receipt {
-    height: 300vh;
+    /* height: 300vh; */
     position: relative;
     /* background-color: blue; */
 }
 
 .receipt {
     position: sticky;
-    height: 120vh;
+    /* height: 120vh; */
     /* width: 30vw; */
     /* background-color: blanchedalmond; */
 }
@@ -343,7 +496,7 @@
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
     z-index: 2;
 }
@@ -352,7 +505,7 @@
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: brown;
+    /* background-color: brown; */
     position: absolute;
     z-index: 2;
 }
@@ -361,7 +514,7 @@
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(0, 255, 21);
+    /* background-color: rgb(0, 255, 21); */
     position: absolute;
     z-index: 2;
 }
@@ -385,15 +538,19 @@
 .modal-backdrop {
     opacity: 0.7 !important;
 }
-
 #plusbtn1 {
     position: absolute;
     top: 0;
-    right: 5vw;
+    right: 4vw;
     background: transparent;
     border: none;
     opacity: 0;
     transition: 0.5s;
+}
+#plusbtn2 {
+    position: absolute;
+    background: transparent;
+    border: none;
 }
 
 #plusbtn1:hover {
@@ -436,13 +593,11 @@
     z-index: 2;
 }
 
-#bagglass {
-    left: 0%;
-}
 
 #bagglass[data-scene="1"] .bag {
     left: -80vw;
     transform: rotate(180deg);
+    transition: all 0.5s;
 }
 
 .info1 {
@@ -776,7 +931,7 @@
 }
 
 #receipt_again {
-    width: 25vw;
+    width: 30vw;
     margin-top: 25vh;
 }
 
