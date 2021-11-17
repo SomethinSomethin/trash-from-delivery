@@ -111,6 +111,22 @@ document.body.onscroll = function() {
     }
     //---------------------------------------------------------------------------------------//
 
+    // จอร์ชช
+    var beegBut = document.getElementById("condi-but");
+    var beegButTop = beegBut.offsetTop;
+
+    let butchk = document.getElementById("contain-but").getBoundingClientRect().y
+    console.log(butchk - viewHeight);
+
+    if ((butchk - viewHeight) * -1 >= beegButTop) {
+        document.querySelector(".rpbg").dataset.scene = 1
+    } else {
+        document.querySelector(".rpbg").dataset.scene = 0
+    }
+    // if (scrollY + window.innerHeight - (beegBut.offsetHeight) >= beegButTop && scrollY < beegButTop) {
+    //     
+    // }else{
+    //     
     // }
 }
 
