@@ -69,7 +69,7 @@ document.body.onscroll = function() {
     } else {
         document.querySelector(".psall").dataset.scene = 0
     }
-
+    //--------------------------------js เพิ่มของเรา มีข้างล่างอีก----------------------------------//
     var bike_row = document.querySelector("#motorcycle");
     var bike_row_top = document.querySelector("#motorcycle").offsetTop;
     if (scrollY + window.innerHeight - (bike_row.offsetHeight) >= bike_row_top && scrollY < bike_row_top + 500) {
@@ -92,7 +92,7 @@ document.body.onscroll = function() {
     else {
         document.querySelector("#junkcount").dataset.junkcount = "others";
     }
-
+    //---------------------------------------------------------------------------------------//
 }
 
 function show_Detleyentafo() {
@@ -112,7 +112,7 @@ function back() {
     document.querySelector(".menufood").dataset.show = "start";
     window.scroll(0, 3000);
 };
-
+//--------------------------------js เพิ่มของเรา----------------------------------//
 function trashupdate(){
     var reduceCount = document.querySelectorAll('input[type="checkbox"]:checked');
     document.querySelector("#tickcount").innerText = reduceCount.length;
@@ -139,3 +139,4 @@ function enableWindowScroll() {
     winX = null;
     winY = null;
 }
+//----------------------------------------------------------------------------//
