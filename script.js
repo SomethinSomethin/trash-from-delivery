@@ -1,6 +1,6 @@
-let scrollY
+
 document.body.onscroll = function() {
-    scrollY = window.scrollY;
+    let scrollY = window.scrollY;
     let viewHeight = window.innerHeight;
     document.querySelector("#varY").innerText = scrollY;
     var condi1 = document.getElementById("condi-1");

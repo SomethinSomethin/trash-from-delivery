@@ -1,13 +1,13 @@
-#plusbtn2 {
+#plusbtn3 {
     position: absolute;
     top: 0;
-    right: 9vw;
+    right: 0vw;
     background: transparent;
     border: none;
     transition: 0.5s;
 }
 
-#plusbtn2:hover {
+#plusbtn3:hover {
     transform: scale(1.2);
 }
 

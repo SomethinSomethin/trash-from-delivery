@@ -18,12 +18,12 @@
 </head>
 
 <body class="jimrobain" id="body">
-    <!-- Modal -->
+   <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog" data-bs-dismiss="modal">
             <div class="modal-content" style="background: transparent;">
-                <div class="modal-body">
-                    <img src="./IMG/ใบเสร็จกาง ซูม 1 desktop.png" alt="" class="fullwidth mx-auto">
+                <div class="modal-body text-center">
+                    <img src="./IMG/ใบเสร็จกาง ซูม 1 desktop.png" alt="" class="fullwidth mx-auto" >
                 </div>
             </div>
         </div>
@@ -405,8 +405,22 @@
 
         </div>
         <div class="row">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" data-bs-dismiss="modal">
+                    <div class="modal-content" style="background: transparent;">
+                        <div class="modal-body text-center">
+                            <img src="./IMG/ใบเสร็จกาง ซูม 1 desktop.png" alt="" class="fullwidth mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class=" d-flex justify-content-center">
-                <img src="./IMG/ใบเสร็จกาง 1 desktop.png" alt="" class="fullwidth mx-auto" id="receipt_again">
+                <div style="position: relative;">
+                    <img src="./IMG/ใบเสร็จกาง 1 desktop.png" alt="" class="fullwidth mx-auto" id="receipt_again">
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" id="plusbtn2">
+                        <img src="./IMG/ปุ่มบวก.svg" style="width: 30px;">
+                        </button>
+                </div>
             </div>
         </div>
         <div class="row" style="margin-top: 25vh;">
@@ -609,10 +623,10 @@
             <div class="row">
                 <!-- Modal -->
                 <div class="modal fade" id="thanksexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog" data-bs-dismiss="modal">
                         <div class="modal-content" style="background: transparent;">
-                            <div class="modal-body">
-                                <img src="./IMG/ใบเสร็จขอบคุณใหญ่.png" alt="" class="fullwidth mx-auto">
+                            <div class="modal-body text-center">
+                                <img src="./IMG/ใบเสร็จกาง ซูม 1 desktop.png" alt="" class="fullwidth mx-auto" >
                             </div>
                         </div>
                     </div>
@@ -637,7 +651,7 @@
                                                 ...
                                             </p>
                                         </div>
-                                        <button data-bs-toggle="modal" data-bs-target="#thanksexampleModal" id="plusbtn2">
+                                        <button data-bs-toggle="modal" data-bs-target="#thanksexampleModal" id="plusbtn3">
                                             <img src="./IMG/ปุ่มบวก.svg" style="width: 30px; ">
                                         </button>
                                     </div>
