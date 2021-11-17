@@ -8,7 +8,7 @@
 /* เปลี่ยนสีFont */
 
 * {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .container-fluid {
@@ -159,6 +159,10 @@
     #widht_plastic {
         width: 70px;
     }
+    #condi-but {
+        top: 1vh;
+        left: 1vh;
+    }
 }
 
 /* @media (max-width: 375px) {
@@ -289,6 +293,15 @@
     #widht_plastic {
         width: 60px;
     }
+    /* จอร์ช */
+    .main-but {
+        font-size: 36px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 30px;
+        text-align: center;
+    }
 }
 
 
@@ -411,6 +424,15 @@
     }
     #widht_plastic {
         width: 70px;
+    }
+    /* จอร์ช */
+    .main-but {
+        font-size: 36px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -939,7 +961,7 @@
 }
 
 .big_plastic {
-    height: 600vh;
+    height: 300vh;
     /* background-color: blue; */
     position: relative;
 }
@@ -1504,4 +1526,62 @@
 
 .isyentafo {
     overflow-y: hidden;
+}
+
+
+/* จอร์ชช */
+
+.rpbg[data-scene="0"] #but {
+    transition: 0.7s;
+    display: flex;
+    opacity: 0;
+}
+
+.rpbg[data-scene="1"] #but {
+    transition: 0.7s;
+    display: flex;
+    opacity: 1;
+}
+
+#condi-but {
+    width: 60px;
+    height: 60px;
+    top: 80vh;
+    left: 20vh;
+    background-color: red;
+    position: absolute;
+}
+
+.rpbg {
+    width: 100%;
+    height: 100%;
+    background-image: url("IMG/image-from-rawpixel-id-2319444-jpeg 2.png");
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.receipt_notenought {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content-but {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px white;
+    color: #FF0000;
+    position: absolute;
+    padding-top: 10%;
+    opacity: 0;
+}
+
+.main-but {
+    font-size: 288px;
+    text-align: center;
+}
+
+.sec-but {
+    font-size: 96px;
+    text-align: center;
 }
