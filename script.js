@@ -88,20 +88,28 @@ document.body.onscroll = function() {
         document.querySelector(".psall").dataset.scene = 0
     }
 
-    // if (scrollY >= scroll_yentatop + scroll_yentastop && isyentafo) {
+    //--------------------------------js เพิ่มของเรา มีข้างล่างอีก----------------------------------//
+    var bike_row = document.querySelector("#motorcycle");
+    var bike_row_top = document.querySelector("#motorcycle").offsetTop;
+    if (scrollY + window.innerHeight - (bike_row.offsetHeight) >= bike_row_top && scrollY < bike_row_top + 500) {
+        document.querySelector("#motorcycle").dataset.bike = "active";
+    } else {
+        document.querySelector("#motorcycle").dataset.bike = "others";
+    }
 
-    //     console.log(scroll_yentatop, scroll_yentastop);
-    //     // alert("jimmmm")
-    //     document.getElementById("body").classList.add("isyentafo");
-    //     // document.getElementById("backyentafo").scrollIntoView();
-    //     location.href = "#backyentafo";
-    //     // window.scrollTo(0, scroll_yentatop + scroll_yentastop - 1);
-    //     // document.getElementById("body").classList.remove("isyentafo");
-
-    //     // setTimeout(() => {
-    //     //     document.getElementById("body").classList.remove("isyentafo");
-    //     //     return 0;
-    //     // }, 1000);
+    var junkcount_row = document.querySelector("#junkcount");
+    var junkcount_row_top = document.querySelector("#junkcount").offsetTop;
+    if (scrollY + window.innerHeight - (junkcount_row.offsetHeight) >= junkcount_row_top && scrollY < junkcount_row_top) {
+        document.querySelector("#junkcount").dataset.junkcount = "active";
+        if (document.querySelector("#junkcount").dataset.lock == "first") {
+            document.querySelector("#junkcount").dataset.lock = "done";
+            disableWindowScroll();
+        }
+        trashupdate();
+    } else {
+        document.querySelector("#junkcount").dataset.junkcount = "others";
+    }
+    //---------------------------------------------------------------------------------------//
 
     // }
 }
@@ -141,5 +149,31 @@ function show_Detlekapu() {
 function back() {
     document.querySelector(".menufood").dataset.show = "start";
     window.scroll(0, 3000);
-    isyentafo = !isyentafo
 };
+
+function trashupdate() {
+    var reduceCount = document.querySelectorAll('input[type="checkbox"]:checked');
+    document.querySelector("#tickcount").innerText = reduceCount.length;
+    if (reduceCount.length >= 4) {
+        enableWindowScroll();
+    }
+}
+
+var winX = null;
+var winY = null;
+
+window.addEventListener('scroll', function() {
+    if (winX !== null && winY !== null) {
+        window.scrollTo(winX, winY);
+    }
+});
+
+function disableWindowScroll() {
+    winX = window.scrollX;
+    winY = window.scrollY;
+}
+
+function enableWindowScroll() {
+    winX = null;
+    winY = null;
+}
