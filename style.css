@@ -1,13 +1,17 @@
 .jimrobain {
     background-color: black;
     overflow-x: hidden;
+    font-family: 'Chakra Petch', sans-serif;
 }
-
+a{
+    color: whitesmoke!important;
+    font-size: 1.5vw;
+}
 
 /* เปลี่ยนสีFont */
 
 * {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .container-fluid {
@@ -21,9 +25,73 @@
     top: 0;
     left: 0;
     background: #fffc;
-    z-index: 2;
+    z-index: 4;
 }
 
+/* respondsive */
+
+@media (min-width: 0px) {
+    body {
+        overflow-x: hidden!important;
+    }
+    .logo {
+        margin-top: 6vw;
+    }
+    .logoimg {
+        width: 15vh;
+        left: 10vh;
+    }
+    .big-receipt {
+        height: 240vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 100vh;
+        top: 5vh;
+    }
+    #condi-1 {
+        top: 40vh;
+    }
+    #condi-2 {
+        top: 80vh;
+    }
+    #condi-3 {
+        top: 120vh;
+    }
+    .fullwidth {
+        width: 80vw;
+    }
+    .yentafo {
+        position: absolute;
+        top: 25px;
+        right: 18vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 30px;
+        right: -30vw;
+        width: 40vw;
+    }
+    .rice {
+        position: absolute;
+        top: 60px;
+        right: 7vw;
+        width: 30vw;
+    }
+    #bagcondi-2 {
+        width: 200px;
+        left: 10vw;
+        height: 60vh;
+        /* background-color: rgb(0, 26, 255); */
+    }
+    #textinfo_r_1 {
+        font-size: 4vw;
+    }
+    #widht_plastic {
+        width: 70px;
+    }
+}
 
 /* respondsive */
 
@@ -38,38 +106,36 @@
         width: 15vh;
         left: 10vh;
     }
+    .big-receipt {
+        height: 280vh;
+        /* background-color: blue; */
+    }
     .receipt {
-        margin-top: 20vh;
+        height: 120vh;
         top: 5vh;
     }
     #condi-1 {
-        top: 70vw;
+        top: 50vh;
     }
     #condi-2 {
-        top: 200vw;
+        top: 100vh;
     }
     #condi-3 {
-        top: 330vw;
+        top: 150vh;
     }
     .fullwidth {
-        width: 350px;
+        width: 80vw;
     }
-    .bagwidth {
-        width: 60vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
+    .bag{
+        width: 65vw;
+        transition: all 0.5s;
+        left: 25vw;
+        z-index: 2;
     }
     .yentafo {
         position: absolute;
         top: 25px;
-        right: 12vw;
+        right: 10vw;
         width: 30vw;
     }
     .kapu {
@@ -81,21 +147,28 @@
     .rice {
         position: absolute;
         top: 70px;
-        right: -5vw;
+        right: 5vw;
         width: 30vw;
     }
     #bagcondi-2 {
         width: 200px;
         left: 10vw;
-        height: 90vw;
+        height: 60vh;
         /* background-color: rgb(0, 26, 255); */
     }
     #textinfo_r_1 {
         font-size: 4vw;
     }
+    #widht_plastic {
+        width: 70px;
+    }
+    #condi-but {
+        top: 1vh;
+        left: 1vh;
+    }
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     body {
         overflow-x: hidden!important;
     }
@@ -137,7 +210,7 @@
     .yentafo {
         position: absolute;
         top: 25px;
-        right: 12vw;
+        right: 20vw;
         width: 30vw;
     }
     .kapu {
@@ -148,20 +221,23 @@
     }
     .rice {
         position: absolute;
-        top: 70px;
-        right: -5vw;
+        top: 18vw;
+        right: 5vw;
         width: 30vw;
     }
     #bagcondi-2 {
         width: 200px;
         left: 10vw;
-        height: 90vw;
+        height: 60vh;
         /* background-color: rgb(0, 26, 255); */
-    }
+    /* }
     #textinfo_r_1 {
         font-size: 4vw;
     }
-}
+    #widht_plastic {
+        width: 70px;
+    }
+} */ 
 
 @media (min-width: 576px) {
     body {
@@ -171,35 +247,27 @@
         margin-top: 6vw;
     }
     .logoimg {
-        width: 10vh;
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 300vh;
+        /* background-color: blue; */
     }
     .receipt {
-        width: 50vw;
         top: 5vh;
+        height: 120vh;
     }
     #condi-1 {
-        top: 50vw;
+        top: 50vh;
     }
     #condi-2 {
-        top: 100vw;
+        top: 100vh;
     }
     #condi-3 {
-        top: 150vw;
+        top: 150vh;
     }
     .fullwidth {
         width: 400px;
-    }
-    .bagwidth {
-        width: 50vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
     }
     .yentafo {
         position: absolute;
@@ -215,39 +283,27 @@
     }
     .rice {
         position: absolute;
-        top: 100px;
-        right: -10vw;
+        top: 90px;
+        right: -7vw;
         width: 35vw;
     }
     #bagcondi-2 {
         width: 200px;
         left: 10vw;
-        height: 70vw;
+        height: 70vh;
         /* background-color: rgb(0, 26, 255); */
     }
-    #condip-1 {
-        top: 770vh;
+    #widht_plastic {
+        width: 60px;
     }
-    #condip-2 {
-        top: 800vh;
+    /* จอร์ช */
+    .main-but {
+        font-size: 36px;
+        text-align: center;
     }
-    #condip-3 {
-        top: 830vh;
-    }
-    #condip-4 {
-        top: 860vh;
-    }
-    #condip-5 {
-        top: 890vh;
-    }
-    #condip-6 {
-        top: 920vh;
-    }
-    #condip-7 {
-        top: 950vh;
-    }
-    #condip-8 {
-        top: 980vh;
+    .sec-but {
+        font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -259,111 +315,207 @@
         margin-top: 2vw;
     }
     .logoimg {
-        width: 5570vh;
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 260vh;
+        /* background-color: blue; */
     }
     .receipt {
-        width: 30vw;
+        height: 110vh;
         top: 5vh;
     }
     #condi-1 {
-        top: 20vw;
+        top: 40vh;
     }
     #condi-2 {
-        top: 60vw;
+        top: 80vh;
     }
     #condi-3 {
-        top: 90vw;
+        top: 120vh;
     }
     .fullwidth {
         width: 400px;
     }
-    .bagwidth {
-        width: 50vw;
-    }
-    .kapuwidth {
-        width: 30vw;
-    }
-    .yentafowidth {
-        width: 30vw;
-    }
-    .riecewidth {
-        width: 10vw;
-    }
     .yentafo {
         position: absolute;
-        top: 100px;
-        right: -3vw;
+        top: 5vw;
+        right: 1vw;
         width: 30vw;
     }
     .kapu {
         position: absolute;
         top: 50px;
-        right: -50vw;
+        right: -42vw;
         width: 40vw;
         /* object-fit: none;
                     object-position: 100% 0; */
     }
     .rice {
         position: absolute;
-        top: 200px;
-        right: -20vw;
-        width: 35vw;
+        top: 15vw;
+        right: -8vw;
+        width: 30vw;
     }
     #bagcondi-2 {
         width: 200px;
         left: 10vw;
-        height: 60vw;
+        height: 90vh;
         /* background-color: rgb(0, 26, 255); */
     }
-    #condip_1 {
-        top: 30vh;
-    }
-    #condip-2 {
-        top: 60vh;
-    }
-    #condip-3 {
-        top: 90vh;
-    }
-    #condip-4 {
-        top: 120vh;
-    }
-    #condip-5 {
-        top: 150vh;
-    }
-    #condip-6 {
-        top: 180vh;
-    }
-    #condip-7 {
-        top: 210vh;
-    }
-    #condip-8 {
-        top: 240vh;
+    #widht_plastic {
+        width: 70px;
     }
 }
 
 
 /* // Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .logo {
+        margin-top: 2vw;
+    }
+    .logoimg {
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 220vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 100vh;
+        top: 5vh;
+    }
+    
+    #condi-1 {
+        top: 35vh;
+    }
+    #condi-2 {
+        top: 70vh;
+    }
+    #condi-3 {
+        top: 105vh;
+    }
+    .fullwidth {
+        width: 400px;
+    }
+    .yentafo {
+        position: absolute;
+        top: 5vw;
+        right: -3vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 50px;
+        right: -43vw;
+        width: 40vw;
+        /* object-fit: none;
+         object-position: 100% 0; */
+    }
+    .rice {
+        position: absolute;
+        top: 15vw;
+        right: -10vw;
+        width: 30vw;
+    }
+    #bagcondi-2 {
+        width: 200px;
+        left: 10vw;
+        height: 90vh;
+        /* background-color: rgb(0, 26, 255); */
+    }
+    #widht_plastic {
+        width: 70px;
+    }
+    /* จอร์ช */
+    .main-but {
+        font-size: 36px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 30px;
+        text-align: center;
+    }
+}
 
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
-
+@media (min-width: 1200px) {
+    .logo {
+        margin-top: 2vw;
+    }
+    .logoimg {
+        width: 30vh;
+    }
+    .big-receipt {
+        height: 350vh;
+        /* background-color: blue; */
+    }
+    .receipt {
+        height: 150vh;
+        top: 5vh;
+    }
+    #condi-1 {
+        top: 60vh;
+    }
+    #condi-2 {
+        top: 120vh;
+    }
+    #condi-3 {
+        top: 180vh;
+    }
+    .fullwidth {
+        width: 400px;
+    }
+    .yentafo {
+        position: absolute;
+        top: 5vw;
+        right: -3vw;
+        width: 30vw;
+    }
+    .kapu {
+        position: absolute;
+        top: 50px;
+        right: -45vw;
+        width: 40vw;
+        /* object-fit: none;
+         object-position: 100% 0; */
+    }
+    .rice {
+        position: absolute;
+        top: 15vw;
+        right: -10vw;
+        width: 30vw;
+    }
+    #bagcondi-2 {
+        width: 200px;
+        left: 10vw;
+        height: 90vh;
+        /* background-color: rgb(0, 26, 255); */
+    }
+    #widht_plastic {
+        width: 70px;
+    }
+}
+hr.line {
+    margin-top: 3vh;
+    border-top: 4px dotted black;
+}
 .logo {
     margin-top: 2vw;
 }
 
 .big-receipt {
-    height: 300vh;
+    /* height: 300vh; */
     position: relative;
     /* background-color: blue; */
 }
 
 .receipt {
     position: sticky;
-    height: 120vh;
+    /* height: 120vh; */
     /* width: 30vw; */
     /* background-color: blanchedalmond; */
 }
@@ -372,7 +524,7 @@
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
     z-index: 2;
 }
@@ -381,7 +533,7 @@
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: brown;
+    /* background-color: brown; */
     position: absolute;
     z-index: 2;
 }
@@ -414,15 +566,22 @@
 .modal-backdrop {
     opacity: 0.7 !important;
 }
-
 #plusbtn1 {
     position: absolute;
-    top: 0;
-    right: 5vw;
+    top: 5vh;
+    right: 4vw;
     background: transparent;
     border: none;
     opacity: 0;
     transition: 0.5s;
+}
+#plusbtn2 {
+    margin-top: 25vh;
+    top: 5vh;
+    right: 4vw;
+    position: absolute;
+    background: transparent;
+    border: none;
 }
 
 #plusbtn1:hover {
@@ -465,13 +624,11 @@
     z-index: 2;
 }
 
-#bagglass {
-    left: 0%;
-}
 
 #bagglass[data-scene="1"] .bag {
     left: -80vw;
     transform: rotate(180deg);
+    transition: all 0.5s;
 }
 
 .info1 {
@@ -482,6 +639,7 @@
     left: 120%;
     /* top: 400vh; */
     transition: all 0.5s;
+    z-index: 3;
 }
 
 .info2 {
@@ -492,6 +650,7 @@
     left: 120%;
     /* top: 400vh; */
     transition: all 0.5s;
+    z-index: 3;
 }
 
 .info3 {
@@ -502,6 +661,7 @@
     left: 120%;
     /* top: 400vh; */
     transition: all 0.5s;
+    z-index: 3;
 }
 
 #infoimg {
@@ -802,27 +962,23 @@
 }
 
 #receipt_again {
-    width: 25vw;
+    width: 400px;
     margin-top: 25vh;
 }
 
 .big_plastic {
-    height: 500vh;
-    background-color: blue;
+    height: 300vh;
+    /* background-color: blue; */
     position: relative;
 }
 
 .plastic {
     height: 100vh;
-    background-color: brown;
+    /* background-color: brown; */
     z-index: 2;
     width: 100%;
     position: sticky;
     top: 10vh;
-}
-
-#widht_plastic {
-    width: 5vw;
 }
 
 .psall[data-scene="0"] #ps-1 {
@@ -884,6 +1040,26 @@
     opacity: 0;
 }
 
+.psall[data-scene="1"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="1"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="1"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="1"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="1"] #ps-7-1 {
+    display: none;
+}
+
 
 /* กัน */
 
@@ -913,6 +1089,26 @@
 
 .psall[data-scene="2"] #ps-7 {
     opacity: 0;
+}
+
+.psall[data-scene="2"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="2"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="2"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="2"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="2"] #ps-7-1 {
+    display: none;
 }
 
 
@@ -946,6 +1142,26 @@
     opacity: 0;
 }
 
+.psall[data-scene="3"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="3"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="3"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="3"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="3"] #ps-7-1 {
+    display: none;
+}
+
 
 /* กัน */
 
@@ -975,6 +1191,26 @@
 
 .psall[data-scene="4"] #ps-7 {
     opacity: 0;
+}
+
+.psall[data-scene="4"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="4"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="4"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="4"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="4"] #ps-7-1 {
+    display: none;
 }
 
 
@@ -1008,6 +1244,26 @@
     opacity: 0;
 }
 
+.psall[data-scene="5"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="5"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="5"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="5"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="5"] #ps-7-1 {
+    display: none;
+}
+
 
 /* กัน */
 
@@ -1037,6 +1293,26 @@
 
 .psall[data-scene="6"] #ps-7 {
     opacity: 0;
+}
+
+.psall[data-scene="6"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="6"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="6"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="6"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="6"] #ps-7-1 {
+    display: none;
 }
 
 
@@ -1070,77 +1346,248 @@
     opacity: 1;
 }
 
+.psall[data-scene="7"] #ps-8 {
+    display: none;
+}
+
+.psall[data-scene="7"] #ps-4-1 {
+    display: none;
+}
+
+.psall[data-scene="7"] #ps-5-1 {
+    display: none;
+}
+
+.psall[data-scene="7"] #ps-6-1 {
+    display: none;
+}
+
+.psall[data-scene="7"] #ps-7-1 {
+    display: none;
+}
+
+
+/*  */
+
+.psall[data-scene="8"] #ps-1 {
+    opacity: 1;
+}
+
+.psall[data-scene="8"] #ps-2 {
+    opacity: 1;
+}
+
+.psall[data-scene="8"] #ps-3 {
+    opacity: 1;
+}
+
+.psall[data-scene="8"] #ps-4 {
+    display: none;
+}
+
+.psall[data-scene="8"] #ps-5 {
+    display: none;
+}
+
+.psall[data-scene="8"] #ps-6 {
+    display: none;
+}
+
+.psall[data-scene="8"] #ps-7 {
+    display: none;
+}
+
+.psall[data-scene="8"] #ps-8 {
+    display: flex;
+}
+
+.psall[data-scene="8"] #ps-4-1 {
+    display: flex;
+}
+
+.psall[data-scene="8"] #ps-5-1 {
+    display: flex;
+}
+
+.psall[data-scene="8"] #ps-6-1 {
+    display: flex;
+}
+
+.psall[data-scene="8"] #ps-7-1 {
+    display: flex;
+}
+
 #condip_1 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(0, 255, 21);
+    /* background-color: rgb(0, 255, 21); */
     position: absolute;
     z-index: 3;
+    top: 30vh;
 }
 
 #condip-2 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(255, 196, 0);
+    /* background-color: rgb(255, 196, 0); */
     position: absolute;
     z-index: 3;
+    top: 60vh;
 }
 
 #condip-3 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(255, 232, 155);
+    /* background-color: rgb(255, 232, 155); */
     position: absolute;
     z-index: 3;
+    top: 90vh;
 }
 
 #condip-4 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(155, 218, 255);
+    /* background-color: rgb(155, 218, 255); */
     position: absolute;
     z-index: 3;
+    top: 120vh;
 }
 
 #condip-5 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
     position: absolute;
     z-index: 3;
+    top: 150vh;
 }
 
 #condip-6 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(90, 6, 45);
+    /* background-color: rgb(90, 6, 45); */
     position: absolute;
     z-index: 3;
+    top: 180vh;
 }
 
 #condip-7 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(178, 61, 255);
+    /* background-color: rgb(178, 61, 255); */
     position: absolute;
     z-index: 3;
+    top: 210vh;
 }
 
 #condip-8 {
     width: 5vh;
     left: 200px;
     height: 5vh;
-    background-color: rgb(255, 174, 0);
+    /* background-color: rgb(255, 174, 0); */
     position: absolute;
     z-index: 3;
+    top: 240vh;
+}
+
+#condip-9 {
+    width: 5vh;
+    left: 200px;
+    height: 5vh;
+    /* background-color: rgb(255, 174, 0); */
+    position: absolute;
+    z-index: 3;
+    top: 270vh;
+}
+
+#condip-10 {
+    width: 5vh;
+    left: 200px;
+    height: 5vh;
+    /* background-color: rgb(255, 174, 0); */
+    position: absolute;
+    z-index: 3;
+    top: 300vh;
+}
+
+#condip-11 {
+    width: 5vh;
+    left: 200px;
+    height: 5vh;
+    /* background-color: rgb(255, 174, 0); */
+    position: absolute;
+    z-index: 3;
+    top: 330vh;
 }
 
 
 /* .foodinfo{} */
+
+.isyentafo {
+    overflow-y: hidden;
+}
+
+
+/* จอร์ชช */
+
+.rpbg[data-scene="0"] #but {
+    transition: 0.7s;
+    display: flex;
+    opacity: 0;
+}
+
+.rpbg[data-scene="1"] #but {
+    transition: 0.7s;
+    display: flex;
+    opacity: 1;
+}
+
+#condi-but {
+    width: 60px;
+    height: 60px;
+    top: 80vh;
+    left: 20vh;
+    background-color: red;
+    position: absolute;
+}
+
+.rpbg {
+    width: 100%;
+    height: 100%;
+    background-image: url("IMG/image-from-rawpixel-id-2319444-jpeg 2.png");
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.receipt_notenought {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content-but {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px white;
+    color: #FF0000;
+    position: absolute;
+    padding-top: 10%;
+    opacity: 0;
+}
+
+.main-but {
+    font-size: 288px;
+    text-align: center;
+}
+
+.sec-but {
+    font-size: 96px;
+    text-align: center;
+}
