@@ -1225,3 +1225,38 @@
     background-color: red;
     position: absolute;
 }
+
+.rpbg {
+    width: 100%;
+    height: 100%;
+    background-image: url("IMG/image-from-rawpixel-id-2319444-jpeg 2.png");
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.receipt_notenought {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content-but {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px white;
+    color: #FF0000;
+    position: absolute;
+    padding-top: 10%;
+    opacity: 0;
+}
+
+.main-but {
+    font-size: 288px;
+    text-align: center;
+}
+
+.sec-but {
+    font-size: 96px;
+    text-align: center;
+}
+
