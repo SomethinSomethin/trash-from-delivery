@@ -14,8 +14,6 @@
 .tcontainer {
     position: relative;
     text-align: center;
-    z-index: 100;
-    opacity: 100;
 }
 
 .centered {
