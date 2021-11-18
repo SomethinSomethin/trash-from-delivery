@@ -1,4 +1,3 @@
-
 document.body.onscroll = function() {
     let scrollY = window.scrollY;
     let viewHeight = window.innerHeight;
@@ -134,7 +133,7 @@ document.body.onscroll = function() {
     var beegButbutnot = receiptbut.offsetTop;
 
     let butnot = document.getElementById("contain-but2").getBoundingClientRect().y
-    // console.log(butchk - viewHeight);
+        // console.log(butchk - viewHeight);
 
     if ((butnot - viewHeight) * -1 >= beegButbutnot) {
         document.querySelector(".setreceipt").dataset.scene = 1
@@ -183,6 +182,33 @@ function back() {
     window.scroll(0, 3000);
 };
 
+function show_Detlekoria() {
+    document.querySelector(".country").dataset.show = "koria";
+};
+
+function show_DetailThai() {
+    document.querySelector(".country2").dataset.show = "thai";
+};
+
+function show_Detlesing() {
+    document.querySelector(".country").dataset.show = "sing";
+};
+
+function backcountry() {
+    document.querySelector(".country").dataset.show = "start";
+
+};
+
+function backcountry2() {
+    document.querySelector(".country2").dataset.show = "start";
+
+};
+
+function backtomain() {
+    document.querySelector(".country").dataset.show = "backmain";
+
+};
+
 function trashupdate() {
     var reduceCount = document.querySelectorAll('input[type="checkbox"]:checked');
     document.querySelector("#tickcount").innerText = reduceCount.length;
@@ -209,4 +235,3 @@ function enableWindowScroll() {
     winX = null;
     winY = null;
 }
-

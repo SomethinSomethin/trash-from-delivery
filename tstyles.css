@@ -5,6 +5,7 @@
     background: transparent;
     border: none;
     transition: 0.5s;
+    z-index: 0;
 }
 
 #plusbtn3:hover {
@@ -34,33 +35,35 @@
 .lastp2reciept {
     color: red;
     text-shadow: 2px 2px 4px #ffffff;
-    font-weight: bolder; 
+    font-weight: bolder;
     font-size: 80px;
 }
 
 .lastp3reciept {
     color: red;
     text-shadow: 2px 2px 4px #ffffff;
-    font-weight: bolder; 
+    font-weight: bolder;
     font-size: 80px;
 }
-
 
 @media (max-width: 1280px) {
     #plusbtn2 {
         right: 11vw;
     }
 }
+
 @media (max-width: 1280px) {
     #plusbtn2 {
         right: 6vw;
     }
 }
+
 @media (max-width: 768px) {
     #plusbtn2 {
         right: -1vw;
     }
 }
+
 @media (max-width: 720px) {
     #plusbtn2 {
         right: 16vw;
@@ -75,6 +78,7 @@
     /* background-color: red; */
     position: absolute;
 }
+
 .setreceipt[data-scene="0"] .lastp1reciept {
     transition: 0.7s;
     opacity: 0;
@@ -84,6 +88,7 @@
     transition: 0.7s;
     opacity: 1;
 }
+
 .setreceipt[data-scene="0"] .lastp2reciept {
     transition: 0.5s;
     opacity: 0;
@@ -94,6 +99,7 @@
     transition-delay: 0.7s;
     opacity: 1;
 }
+
 .setreceipt[data-scene="0"] .lastp3reciept {
     transition: 0.5s;
     opacity: 0;
