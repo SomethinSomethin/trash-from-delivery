@@ -116,7 +116,7 @@ document.body.onscroll = function() {
     var beegButTop = beegBut.offsetTop;
 
     let butchk = document.getElementById("contain-but").getBoundingClientRect().y
-    console.log(butchk - viewHeight);
+
 
     if ((butchk - viewHeight) * -1 >= beegButTop) {
         document.querySelector(".rpbg").dataset.scene = 1
@@ -128,7 +128,23 @@ document.body.onscroll = function() {
     // }else{
     //     
     // }
+
+
+    var receiptbut = document.getElementById("condi-but2");
+    var beegButbutnot = receiptbut.offsetTop;
+
+    let butnot = document.getElementById("contain-but2").getBoundingClientRect().y
+    // console.log(butchk - viewHeight);
+
+    if ((butnot - viewHeight) * -1 >= beegButbutnot) {
+        document.querySelector(".setreceipt").dataset.scene = 1
+    } else {
+        document.querySelector(".setreceipt").dataset.scene = 0
+    }
+
 }
+
+
 
 
 
@@ -193,3 +209,4 @@ function enableWindowScroll() {
     winX = null;
     winY = null;
 }
+
