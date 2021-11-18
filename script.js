@@ -98,7 +98,7 @@ document.body.onscroll = function() {
 
     var junkcount_row = document.querySelector("#junkcount");
     var junkcount_row_top = document.querySelector("#junkcount").offsetTop;
-    if (scrollY + window.innerHeight - (junkcount_row.offsetHeight) >= junkcount_row_top && scrollY < junkcount_row_top) {
+    if (scrollY + window.innerHeight - (junkcount_row.offsetHeight -50 ) >= junkcount_row_top && scrollY < junkcount_row_top) {
         document.querySelector("#junkcount").dataset.junkcount = "active";
         if (document.querySelector("#junkcount").dataset.lock == "first") {
             document.querySelector("#junkcount").dataset.lock = "done";

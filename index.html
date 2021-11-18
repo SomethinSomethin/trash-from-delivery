@@ -549,7 +549,7 @@
                 <img src="IMG/มอไซค์KMITL desktop 3.png" style="height:15vh;" class="bike" id="bike3">
             </div>
         </div>
-        <div class="row" style="height: 400px;" data-junkcount="others" data-lock="first" id="junkcount">
+        <div class="row" style="height: 500px;" data-junkcount="others" data-lock="first" id="junkcount">
             <div class="col-3"></div>
             <div class="col-6" id="countText">
                 <h1 class="text-center" style="margin-bottom: 50px;">ลดขยะจากจำนวนออเดอร์คุณกันเถอะ</h1>
@@ -594,19 +594,33 @@
             </div>
         </div>
         <!-- ของไอ้จอร์ชทำตรงแต่อันใหญ่ๆ -->
-        <div class="row rpbg mx-auto" id="contain-but">
-            <div class="col-xl-4 col-md-3 col-sm-1"></div>
-            <div class="col-xl-4 col-md-6 col-sm-10">
-                <img src="IMG/ใบเสร็จแต่คุณก็ยังลดได้ไม่พออยู่ดี.png" alt="" class="receipt_notenought">
-            </div>
-            <div class="col-xl-4 col-md-3 col-sm-1"></div>
-            <div class="row content-but" id="but">
-                <div class="col-xl-2 col-md-2 col-sm-4"></div>
-                <div class="col-xl-8 col-md-8 col-sm-4">
-                    <p class="main-but">แต่</p>
-                    <p class="sec-but">คูณก็ยังลดได้ไม่ดีพออยู่ดี</p>
+        <div class="row rpbg mx-auto" id="contain-but" style="margin-bottom: 200px;">
+            <div class="col-xl-4 col-md-3 col-sm-1 col-1"></div>
+            <div class=" col-xl-4 col-md-6 col-sm-10 col-10">
+                <div style="position:relative;">
+                    <img src="IMG/ใบเสร็จแต่คุณก็ยังลดได้ไม่พออยู่ดี.png" alt="" class="test">
+                    <button data-bs-toggle="modal" data-bs-target="#truereceipt" id="plusbtn3" style="z-index: 10;">
+                        <img src="./IMG/ปุ่มบวก.svg" style="width: 30px;">
+                    </button>
                 </div>
-                <div class="col-xl-2 col-md-2 col-sm-4"></div>
+            </div>
+            <div class="modal fade" id="truereceipt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" data-bs-dismiss="modal">
+                    <div class="modal-content" style="background: transparent;">
+                        <div class="modal-body text-center">
+                            <img src="./IMG/ใบเสร็จกาง ซูม 3 desktop.png" alt="" class="fullwidth mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-sm-1 col-1"></div>
+            <div class="row content-but" id="but">
+                <div class="col-xl-2 col-md-2 col-sm-3"></div>
+                <div class="col-xl-8 col-md-8 col-sm-6">
+                    <p class="main-but" style="color: red;">แต่</p>
+                    <p class="sec-but" style="color: red;">คุณก็ยังลดได้ไม่พออยู่ดี</p>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-"></div>
             </div>
             <div id="condi-but"></div>
         </div>
@@ -778,7 +792,7 @@
                 <img src="./IMG/ต้มยำกุ้ง desktop.png" alt=" " style="margin-top: 90px;" id="imgtomyum">
             </div>
             <div class="d-flex justify-content-center ">
-                <button type="button " class="btn btn-success " onclick="show_DetailThai() ">เกาหลี</button>
+                <button type="button " class="btn btn-success " onclick="show_DetailThai() ">ไทย</button>
             </div>
         </div>
 

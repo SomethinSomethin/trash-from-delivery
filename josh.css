@@ -168,7 +168,7 @@
     #condi-but {
         width: 60px;
         height: 60px;
-        top: 0vh;
+        top: 80vh;
         left: 20vh;
         /* background-color: red; */
         position: absolute;
@@ -205,7 +205,7 @@
     #condi-but {
         width: 60px;
         height: 60px;
-        top: 50vh;
+        top: 95vh;
         left: 20vh;
         /* background-color: bac; */
         position: absolute;
