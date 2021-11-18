@@ -42,4 +42,89 @@
     #textkoria1 {
         display: none;
     }
+
+    .main-but {
+        padding-top:30%;
+        font-size: 100px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (min-width:375px){
+    .main-but {
+        padding-top:20%;
+        font-size: 130px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 576px) {
+    .main-but {
+        padding-top:20%;
+        font-size: 140px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-but {
+        font-size: 200px;
+        text-align: center;
+    }
+    
+    .sec-but {
+        font-size: 96px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-but {
+        padding-top:10%;
+        font-size: 200px;
+        text-align: center;
+    }
+    .sec-but {
+        font-size: 96px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .main-but {
+        font-size: 288px;
+        text-align: center;
+    }
+    
+    .sec-but {
+        font-size: 96px;
+        text-align: center;
+    }
+
+}
+
+.end-footer{
+    padding-bottom: 20%;
+}
+
+#plusbtn3{
+    position: absolute;
+    z-index: 10;
+    padding-top:5%;
+}
+#plusbtn3:hover{
+    transform: scale(1.2);
 }

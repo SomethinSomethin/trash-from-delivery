@@ -2,6 +2,7 @@
     background-color: black;
     overflow-x: hidden;
     font-family: 'Chakra Petch', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -12,9 +13,7 @@ a {
 
 /* เปลี่ยนสีFont */
 
-* {
-    color: rgb(255, 255, 255);
-}
+
 
 .container-fluid {
     background-color: black;
@@ -94,6 +93,7 @@ a {
     #widht_plastic {
         width: 70px;
     }
+
 }
 
 
@@ -170,6 +170,7 @@ a {
         top: 1vh;
         left: 1vh;
     }
+
 }
 
 
@@ -246,7 +247,7 @@ a {
     }
 } */
 
-@media (min-width: 576px) {
+@media(min-width: 576px) {
     body {
         overflow-x: hidden!important;
     }
@@ -302,15 +303,6 @@ a {
     }
     #widht_plastic {
         width: 60px;
-    }
-    /* จอร์ช */
-    .main-but {
-        font-size: 36px;
-        text-align: center;
-    }
-    .sec-but {
-        font-size: 30px;
-        text-align: center;
     }
 }
 
@@ -373,6 +365,7 @@ a {
     #widht_plastic {
         width: 70px;
     }
+
 }
 
 
@@ -434,15 +427,7 @@ a {
     #widht_plastic {
         width: 70px;
     }
-    /* จอร์ช */
-    .main-but {
-        font-size: 36px;
-        text-align: center;
-    }
-    .sec-but {
-        font-size: 30px;
-        text-align: center;
-    }
+    
 }
 
 
@@ -504,6 +489,7 @@ a {
     #widht_plastic {
         width: 70px;
     }
+
 }
 
 hr.line {
@@ -1585,23 +1571,7 @@ hr.line {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     text-shadow: 3px 3px 10px white;
-    color: #FF0000;
     position: absolute;
-    padding-top: 10%;
     opacity: 0;
+    color:red;
 }
-
-.main-but {
-    font-size: 288px;
-    text-align: center;
-}
-
-.sec-but {
-    font-size: 96px;
-    text-align: center;
-}
-
-
-/* #imgkoria{
-    ma
-} */
