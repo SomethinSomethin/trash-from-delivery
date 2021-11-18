@@ -1565,7 +1565,7 @@ hr.line {
     height: 60px;
     top: 80vh;
     left: 20vh;
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
 }
 .rpbg[data-scene="0"] #but {
