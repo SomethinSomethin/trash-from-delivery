@@ -171,7 +171,7 @@ function show_Detlekoria() {
 };
 
 function show_DetailThai() {
-    document.querySelector(".country").dataset.show = "thai";
+    document.querySelector(".country2").dataset.show = "thai";
 };
 
 function show_Detlesing() {
@@ -180,6 +180,11 @@ function show_Detlesing() {
 
 function backcountry() {
     document.querySelector(".country").dataset.show = "start";
+
+};
+
+function backcountry2() {
+    document.querySelector(".country2").dataset.show = "start";
 
 };
 
