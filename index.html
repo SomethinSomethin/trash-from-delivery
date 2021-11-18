@@ -609,15 +609,16 @@
         <!-- ของไอ้จอร์ชทำตรงแต่อันใหญ่ๆ -->
         <div class="row rpbg mx-auto" id="contain-but">
             <div class="col-xl-4 col-md-3 col-sm-1"></div>
-            <div class="col-xl-3 col-md-6 col-sm-10">
+            <div class="col-xl-4 col-md-6 col-sm-10">
                 <div style="position:relative;">
-                    <img src="IMG/ใบเสร็จแต่คุณก็ยังลดได้ไม่พออยู่ดี.png" alt="">
-                    <button data-bs-toggle="modal" data-bs-target="#jim" id="plusbtn3">
+                    <img src="IMG/ใบเสร็จแต่คุณก็ยังลดได้ไม่พออยู่ดี.png" alt="" class="test">
+                    <button data-bs-toggle="modal" data-bs-target="#truereceipt" id="plusbtn3">
                         <img src="./IMG/ปุ่มบวก.svg" style="width: 30px;">
                     </button>
                 </div>
             </div>
-            <div class="modal fade" id="jim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="truereceipt" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog" data-bs-dismiss="modal">
                     <div class="modal-content" style="background: transparent;">
                         <div class="modal-body text-center">
@@ -631,7 +632,7 @@
                 <div class="col-xl-2 col-md-2 col-sm-3"></div>
                 <div class="col-xl-8 col-md-8 col-sm-6">
                     <p class="main-but">แต่</p>
-                    <p class="sec-but">คูณก็ยังลดได้ไม่พออยู่ดี</p>
+                    <p class="sec-but">คุณก็ยังลดได้ไม่พออยู่ดี</p>
                 </div>
                 <div class="col-xl-2 col-md-2 col-sm-"></div>
             </div>
@@ -740,7 +741,7 @@
             </div>
 
             <!-- ของต่อตรงใบเสร็จที่เขียนคำว่าแต่ตัวแดงๆ -->
-            <div class="row end-footer" style="margin-top: 100px; ">
+            <div class="row" style="margin-top: 100px; ">
                 <!-- Modal -->
                 <div class="modal fade " id="thanksexampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel "
                     aria-hidden="true ">
@@ -777,29 +778,66 @@
     </div>
 
     <!-- ล่างสุดของไอ้จอร์ -->
-    <footer style="padding-bottom: 10vh;">
-        <div class="container ">
-
-            <div class="d-md-flex ">
-                <div class="d-flex justify-content-evenly mx-md-5 ">
-                    <div>
-                        <img src="./IMG/kmitl_logo_desktop.png " alt=" ">
+    <div class="row end-footer">
+        <div class="row country2" data-show="backmain">
+            <div class="infothai">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <img src="./IMG/ต๊อกบกกี desktop.png" alt=" " id="imgkoria" style="margin-right: 0;"
+                            class="d-md-flex">
                     </div>
-                    <div>
-                        <img src="./IMG/Logo_Arch.png " alt=" ">
-                    </div>
-                    <div>
-                        <img src="./IMG/Logo_IT.png " alt=" ">
+                    <div class="col-1"></div>
+                    <div class="col-md-4">
+                        <h1>ไทย</h1>
+                        <p>ออกนโยบายระดับภาครัฐ</p>
+                        <br>
+                        <p> ภาครัฐมีนโยบายด้านการจัดการขยะจากบริการ ฟู้ดเดลิเวอรี่โดยผลักดันให้เกิดการทำบันทึก
+                            ข้อตกลง (MOU) ระหว่าง 3 ฝ่าย ได้แก่ รัฐบาลเกาหลีใต้ ผู้ให้บริการแอพพลิเคชัน
+                            และร้านอาหารที่เข้าร่วมใน เครือข่ายฟู้ดเดลิเวอรี่โดยงดใช้บรรจุภัณฑ์ที่ซ้อนกันสอง
+                            ชั้นงดให้บริการช้อนและส้อมพลาสติก ใช้กล่องกระดาษ ในการบรรจุอาหารแทนกล่อง พลาสติก
+                            ใช้ถุงเก็บความ เย็นที่สามารถนำกลับมาใช้ซ้ำได้รวมถึงรณรงค์ให้
+                            ประชาชนชาวเกาหลีใต้คัดแยกขยะพลาสติกอย่างถูกวิธี </p>
+                        <div class="row ">
+                            <div class=" d-flex justify-content-end">
+                                <a href="#!" onclick="backtomain()"><img src="./IMG/ปุ่มกลับ คาปูชิโน desktop.png"
+                                        id="back_country2" class="mx-auto"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-12 d-flex justify-content-center ">
-                    <p>เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์ และ
-                        การโปรแกรมและสื่อประสม แขนงวิชาการพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ
-                        สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2020</p>
+            </div>
+            <div class="col-md-12 ">
+                <div class="foodcountry d-flex justify-content-center ">
+                    <img src="./IMG/ต้มยำกุ้ง desktop.png" alt=" " style="margin-top: 90px; width: 35vw;">
+                </div>
+                <div class="d-flex justify-content-center ">
+                    <button type="button " class="btn btn-success " onclick="show_DetailThai() ">ไทย</button>
                 </div>
             </div>
         </div>
-        </div>
+        <footer style="padding-bottom: 10vh;">
+            <div class="container ">
+
+                <div class="d-md-flex ">
+                    <div class="d-flex justify-content-evenly mx-md-5 ">
+                        <div>
+                            <img src="./IMG/kmitl_logo_desktop.png " alt=" ">
+                        </div>
+                        <div>
+                            <img src="./IMG/Logo_Arch.png " alt=" ">
+                        </div>
+                        <div>
+                            <img src="./IMG/Logo_IT.png " alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12 d-flex justify-content-center ">
+                        <p>เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์ และ
+                            การโปรแกรมและสื่อประสม แขนงวิชาการพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ
+                            สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2020</p>
+                    </div>
+                </div>
+            </div>
+    </div>
     </footer>
 </body>
 

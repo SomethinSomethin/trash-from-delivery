@@ -170,12 +170,21 @@ function show_Detlekoria() {
     document.querySelector(".country").dataset.show = "koria";
 };
 
+function show_DetailThai() {
+    document.querySelector(".country").dataset.show = "thai";
+};
+
 function show_Detlesing() {
     document.querySelector(".country").dataset.show = "sing";
 };
 
 function backcountry() {
     document.querySelector(".country").dataset.show = "start";
+
+};
+
+function backtomain() {
+    document.querySelector(".country").dataset.show = "backmain";
 
 };
 

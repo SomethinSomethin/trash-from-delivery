@@ -6,6 +6,10 @@
     left: 0%;
 }
 
+.country2[data-show="thai"] .infothai {
+    left: 0%;
+}
+
 .infokoria {
     position: absolute;
     background-color: black;
@@ -28,7 +32,22 @@
     z-index: 3;
 }
 
+.infothai {
+    position: absolute;
+    background-color: red;
+    height: 200vh;
+    width: 100%;
+    left: 120%;
+    /* top: 400vh; */
+    transition: all 0.5s;
+    z-index: 3;
+}
+
 #back_country {
+    margin-top: 60px;
+}
+
+#back_country2 {
     margin-top: 60px;
 }
 
@@ -52,6 +71,9 @@
         font-size: 30px;
         text-align: center;
     }
+    .test{
+        width:80%;
+    }
 }
 
 @media (min-width:375px){
@@ -63,6 +85,10 @@
     .sec-but {
         font-size: 60px;
         text-align: center;
+    }
+
+    .test{
+        width:100%;
     }
 }
 
@@ -76,17 +102,23 @@
         font-size: 60px;
         text-align: center;
     }
+    .test{
+        width:100%;
+    }
 }
 
 @media (min-width: 768px) {
     .main-but {
-        font-size: 200px;
+        font-size: 140px;
         text-align: center;
     }
     
     .sec-but {
-        font-size: 96px;
+        font-size: 76px;
         text-align: center;
+    }
+    .test{
+        width:100%;
     }
 }
 
@@ -100,12 +132,24 @@
         font-size: 96px;
         text-align: center;
     }
+    .test{
+        width:100%;
+    }
 
+    #condi-but {
+        width: 60px;
+        height: 60px;
+        top: 0vh;
+        left: 20vh;
+        background-color: red;
+        position: absolute;
+    }
+    
 }
 
 @media (min-width: 1200px) {
     .main-but {
-        font-size: 288px;
+        font-size: 200px;
         text-align: center;
     }
     
@@ -114,6 +158,19 @@
         text-align: center;
     }
 
+    .test{
+        width:100%;
+    }
+
+    #condi-but {
+        width: 60px;
+        height: 60px;
+        top: 50vh;
+        left: 20vh;
+        background-color: red;
+        position: absolute;
+    }
+    
 }
 
 .end-footer{
@@ -128,3 +185,4 @@
 #plusbtn3:hover{
     transform: scale(1.2);
 }
+

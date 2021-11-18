@@ -1543,20 +1543,11 @@ hr.line {
     display: flex;
     opacity: 1;
 }
-
-#condi-but {
-    width: 60px;
-    height: 60px;
-    top: 80vh;
-    left: 20vh;
-    background-color: red;
-    position: absolute;
-}
-
 .rpbg {
     width: 100%;
     height: 100%;
     background-image: url("IMG/image-from-rawpixel-id-2319444-jpeg 2.png");
+    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
 }
