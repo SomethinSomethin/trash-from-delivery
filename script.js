@@ -1,4 +1,3 @@
-
 document.body.onscroll = function() {
     let scrollY = window.scrollY;
     let viewHeight = window.innerHeight;
@@ -159,12 +158,25 @@ function show_Detlericechicken() {
 
 function show_Detlekapu() {
     document.querySelector(".menufood").dataset.show = "kapu";
-    console.log("jimrobo");
+
 };
 
 function back() {
     document.querySelector(".menufood").dataset.show = "start";
     window.scroll(0, 3000);
+};
+
+function show_Detlekoria() {
+    document.querySelector(".country").dataset.show = "koria";
+};
+
+function show_Detlesing() {
+    document.querySelector(".country").dataset.show = "sing";
+};
+
+function backcountry() {
+    document.querySelector(".country").dataset.show = "start";
+
 };
 
 function trashupdate() {

@@ -1,0 +1,45 @@
+.country[data-show="koria"] .infokoria {
+    left: 0%;
+}
+
+.country[data-show="sing"] .infosing {
+    left: 0%;
+}
+
+.infokoria {
+    position: absolute;
+    background-color: black;
+    height: 200vh;
+    width: 100%;
+    left: 120%;
+    /* top: 400vh; */
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+.infosing {
+    position: absolute;
+    background-color: black;
+    height: 200vh;
+    width: 100%;
+    left: 120%;
+    /* top: 400vh; */
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+#back_country {
+    margin-top: 60px;
+}
+
+@media (min-width: 0px) {
+    #imgkoria {
+        display: none;
+    }
+    #imgsing {
+        display: none;
+    }
+    #textkoria1 {
+        display: none;
+    }
+}
