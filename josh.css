@@ -13,7 +13,7 @@
 .infokoria {
     position: absolute;
     background-color: black;
-    height: 200vh;
+    height: 950px;
     width: 100%;
     left: 120%;
     /* top: 400vh; */
@@ -24,7 +24,7 @@
 .infosing {
     position: absolute;
     background-color: black;
-    height: 200vh;
+    height: 950px;
     width: 100%;
     left: 120%;
     /* top: 400vh; */
@@ -79,6 +79,9 @@
     #imgtomyum {
         width: 200px;
     }
+    #ctfood {
+        width: 200px;
+    }
 }
 
 @media (min-width:375px) {
@@ -95,6 +98,9 @@
         width: 100%;
     }
     #imgtomyum {
+        width: 300px;
+    }
+    #ctfood {
         width: 300px;
     }
 }
@@ -115,6 +121,9 @@
     #imgtomyum {
         width: 300px;
     }
+    #ctfood {
+        width: 300px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -130,6 +139,15 @@
         width: 100%;
     }
     #imgtomyum {
+        width: 400px;
+    }
+    #ctfood {
+        width: 400px;
+    }
+    #imgsing {
+        width: 400px;
+    }
+    #imgkoria {
         width: 400px;
     }
 }
@@ -152,15 +170,27 @@
         height: 60px;
         top: 0vh;
         left: 20vh;
-        background-color: red;
+        /* background-color: red; */
         position: absolute;
     }
     #imgtomyum {
         width: 500px;
     }
+    #ctfood {
+        width: 400px;
+    }
+    #imgsing {
+        width: 400px;
+    }
+    #imgkoria {
+        width: 400px;
+    }
 }
 
 @media (min-width: 1200px) {
+    #imgsing {
+        width: 500px;
+    }
     .main-but {
         font-size: 200px;
         text-align: center;
@@ -177,10 +207,13 @@
         height: 60px;
         top: 50vh;
         left: 20vh;
-        background-color: red;
+        /* background-color: bac; */
         position: absolute;
     }
     #imgtomyum {
+        width: 500px;
+    }
+    #imgkoria {
         width: 500px;
     }
 }
@@ -189,12 +222,14 @@
     padding-bottom: 20%;
 }
 
-#plusbtn3 {
+
+/* #plusbtn3 {
     position: absolute;
     z-index: 10;
     padding-top: 5%;
-}
+} */
 
-#plusbtn3:hover {
+
+/* #plusbtn3:hover {
     transform: scale(1.2);
-}
+} */
