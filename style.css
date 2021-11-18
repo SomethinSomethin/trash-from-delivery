@@ -586,8 +586,7 @@ hr.line {
 }
 
 #plusbtn2 {
-    margin-top: 25vh;
-    top: 5vh;
+    top: 2vh;
     right: 4vw;
     position: absolute;
     background: transparent;
@@ -972,7 +971,6 @@ hr.line {
 
 #receipt_again {
     width: 400px;
-    margin-top: 25vh;
 }
 
 .big_plastic {

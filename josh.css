@@ -9,6 +9,15 @@
 .country2[data-show="thai"] .infothai {
     left: 0%;
 }
+#plusbtn3 {
+    position: absolute;
+    top: 2vw;
+    right: 4vw;
+    background: transparent;
+    border: none;
+    transition: 0.5s;
+    z-index: 0;
+}
 
 .infokoria {
     position: absolute;
