@@ -591,9 +591,13 @@ hr.line {
     position: absolute;
     background: transparent;
     border: none;
+    transition: 0.5s;
 }
 
 #plusbtn1:hover {
+    transform: scale(1.2);
+}
+#plusbtn2:hover {
     transform: scale(1.2);
 }
 

@@ -18,6 +18,9 @@
     transition: 0.5s;
     z-index: 0;
 }
+#plusbtn3:hover {
+    transform: scale(1.2);
+}
 
 .infokoria {
     position: absolute;
