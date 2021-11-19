@@ -80,10 +80,12 @@
         padding-top: 30%;
         font-size: 100px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 30px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 80%;
@@ -101,10 +103,12 @@
         padding-top: 20%;
         font-size: 130px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 60px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 100%;
@@ -122,10 +126,12 @@
         padding-top: 20%;
         font-size: 140px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 60px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 100%;
@@ -142,10 +148,12 @@
     .main-but {
         font-size: 140px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 76px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 100%;
@@ -169,10 +177,12 @@
         padding-top: 10%;
         font-size: 200px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 96px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 100%;
@@ -206,10 +216,12 @@
     .main-but {
         font-size: 200px;
         text-align: center;
+        font-weight: bold;
     }
     .sec-but {
         font-size: 96px;
         text-align: center;
+        font-weight: bold;
     }
     .test {
         width: 100%;
