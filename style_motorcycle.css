@@ -81,13 +81,13 @@
   
   /* On mouse-over, add a grey background color */
   .checkwrap:hover input ~ .checkmark {
-    background-color: rgb(127, 185, 40);
+    background-color: #41D485;
     transition: 0.5s;
   }
   
   /* When the checkbox is checked, add a blue background */
   .checkwrap input:checked ~ .checkmark {
-    background-color: rgb(127, 185, 40);
+    background-color: #41D485;
     background-color: none;
     transition: 0.5s;
   }
