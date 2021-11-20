@@ -1,50 +1,54 @@
-.padding{
-  padding: 15% !important;
+.padding {
+    padding: 15% !important;
 }
-.oum-container{
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  background-repeat: none;
-  background-size: cover;
+
+.oum-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-repeat: none;
+    background-size: cover;
 }
 
 .oum-container p {
-  text-align: center;
-  font-size: 2em;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .visible-desktop {
-  display: none;
-}
-.visible-mobile{
-  display: none;
+    display: none;
 }
 
-.bg-desktop{
-  background-image: url('./IMG/กลุ่มขยะ\ desktop.png');
-  padding-bottom: 77.37%;
+.visible-mobile {
+    display: none;
 }
-.bg-mobile{
-  background-image: url('./IMG/กลุ่มขยะ\ Moblie.png');
-  padding-bottom: 158.47%;
+
+.bg-desktop {
+    background-image: url('./IMG/กลุ่มขยะ\ desktop.png');
+    padding-bottom: 77.37%;
+}
+
+.bg-mobile {
+    background-image: url('./IMG/กลุ่มขยะ\ Moblie.png');
+    padding-bottom: 158.47%;
 }
 
 @media screen and (min-width: 800px) {
-  .visible-desktop {
-    display: block;
-  }
+    .visible-desktop {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 800px) {
-  .visible-mobile {
-    display: block;
-  }
+    .visible-mobile {
+        display: block;
+        font-size: 3vw;
+    }
 }
