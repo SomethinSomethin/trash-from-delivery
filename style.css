@@ -124,6 +124,9 @@ a {
 /* respondsive */
 
 @media (min-width: 375px) {
+    .motor-text{
+        font-size: 1.8rem;
+    }
     #plusbtn4 {
         top: -1vh;
         right: -5vw;
@@ -295,6 +298,9 @@ a {
 } */
 
 @media (min-width: 576px) {
+    .motor-text{
+        font-size: 4vw;
+    }
     #plusbtn4 {
         top: -1vh;
         right: -3vw;
@@ -386,6 +392,9 @@ a {
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    .motor-text{
+        font-size: 4vw;
+    }
     #plusbtn4 {
         top: -1vh;
         right: -2vw;
@@ -471,6 +480,9 @@ a {
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .motor-text{
+        font-size: 3vw;
+    }
     #plusbtn4 {
         top: -1vh;
         right: -2vw;
@@ -565,6 +577,9 @@ a {
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    .motor-text{
+        font-size: 3vw;
+    }
     #plusbtn4 {
         top: -1vh;
         right: -1vw;
