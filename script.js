@@ -210,4 +210,5 @@ function backtomain() {
 function trashupdate() {
     var reduceCount = document.querySelectorAll('input[type="checkbox"]:checked');
     document.querySelector("#tickcount").innerText = reduceCount.length;
+    document.querySelector("#tickcount2").innerText = reduceCount.length;
 }
