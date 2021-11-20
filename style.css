@@ -34,6 +34,9 @@ a {
 /* respondsive */
 
 @media (min-width: 0px) {
+    .fontfood{
+        font-size: 4vw;
+    }
     .motor1-text1 {
         display: none;
     }
@@ -142,6 +145,9 @@ a {
 /* respondsive */
 
 @media (min-width: 375px) {
+    .fontfood{
+        font-size: 4vw;
+    }
     .motor1-text1 {
         display: none;
     }
@@ -331,6 +337,9 @@ a {
 } */
 
 @media (min-width: 576px) {
+    .fontfood{
+        font-size: 3vw;
+    }
     .motor1-text1 {
         display: inline;
     }
@@ -440,6 +449,9 @@ a {
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    .fontfood{
+        font-size: 3vw;
+    }
     .motor1-text1 {
         display: inline;
     }
@@ -543,6 +555,9 @@ a {
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .fontfood{
+        font-size: 3vw;
+    }
     .motor1-text1 {
         display: inline;
     }
@@ -655,6 +670,9 @@ a {
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    .fontfood{
+        font-size: 2vw;
+    }
     .motor1-text1 {
         display: inline;
     }
