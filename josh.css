@@ -10,20 +10,6 @@
     left: 0%;
 }
 
-#plusbtn3 {
-    position: absolute;
-    top: 2vw;
-    right: 4vw;
-    background: transparent;
-    border: none;
-    transition: 0.5s;
-    z-index: 0;
-}
-
-#plusbtn3:hover {
-    transform: scale(1.2);
-}
-
 .infokoria {
     position: absolute;
     background-color: black;
