@@ -1,7 +1,7 @@
 document.body.onscroll = function() {
     let scrollY = window.scrollY;
     let viewHeight = window.innerHeight;
-    document.querySelector("#varY").innerText = scrollY;
+    // document.querySelector("#varY").innerText = scrollY;
     var condi1 = document.getElementById("condi-1");
     var condi2 = document.getElementById("condi-2");
     var condi3 = document.getElementById("condi-3");
@@ -98,10 +98,9 @@ document.body.onscroll = function() {
 
     var junkcount_row = document.querySelector("#junkcount");
     var junkcount_row_top = document.querySelector("#junkcount").offsetTop;
-    if (scrollY + window.innerHeight - (junkcount_row.offsetHeight -50 ) >= junkcount_row_top && scrollY < junkcount_row_top) {
+    if (scrollY + window.innerHeight - (junkcount_row.offsetHeight - 50) >= junkcount_row_top && scrollY < junkcount_row_top) {
         document.querySelector("#junkcount").dataset.junkcount = "active";
-    } 
-    else {
+    } else {
         document.querySelector("#junkcount").dataset.junkcount = "others";
     }
 
@@ -158,6 +157,7 @@ var scroll_yentastop;
 function show_Detleyentafo() {
     console.log(scroll_yentatop);
     document.querySelector(".menufood").dataset.show = "yentafo";
+    document.querySelector(".jimrobain").dataset.show = "0";
     isyentafo = !isyentafo
 
 
@@ -165,15 +165,18 @@ function show_Detleyentafo() {
 
 function show_Detlericechicken() {
     document.querySelector(".menufood").dataset.show = "ricechicken";
+    document.querySelector(".jimrobain").dataset.show = "0";
 };
 
 function show_Detlekapu() {
     document.querySelector(".menufood").dataset.show = "kapu";
+    document.querySelector(".jimrobain").dataset.show = "0";
     console.log("jimrobo");
 };
 
 function back() {
     document.querySelector(".menufood").dataset.show = "start";
+    document.querySelector(".jimrobain").dataset.show = "1";
     window.scroll(0, 3000);
 };
 

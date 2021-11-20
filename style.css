@@ -50,8 +50,8 @@ a {
         top: 3.5vh;
         right: 7vw;
     }
-    .picplus{
-        width:30px;
+    .picplus {
+        width: 30px;
     }
     body {
         overflow-x: hidden!important;
@@ -140,7 +140,7 @@ a {
         top: 3.5vh;
         right: 10vw;
     }
-    .picplus{
+    .picplus {
         width: 35px;
     }
     body {
@@ -307,7 +307,7 @@ a {
         top: 3.5vh;
         right: 7vw;
     }
-    .picplus{
+    .picplus {
         width: 30px;
     }
     body {
@@ -402,7 +402,7 @@ a {
         top: 4vh;
         right: 5vw;
     }
-    .picplus{
+    .picplus {
         width: 40px;
     }
     .logo {
@@ -487,7 +487,7 @@ a {
         top: 3.5vh;
         right: 5vw;
     }
-    .picplus{
+    .picplus {
         width: 40px;
     }
     .logo {
@@ -581,7 +581,7 @@ a {
         top: 5vh;
         right: 4vw;
     }
-    .picplus{
+    .picplus {
         width: 40px;
     }
     .logo {
@@ -725,6 +725,7 @@ hr.line {
     border: none;
     transition: 0.5s;
 }
+
 #plusbtn3 {
     position: absolute;
     background: transparent;
@@ -732,6 +733,7 @@ hr.line {
     transition: 0.5s;
     z-index: 0;
 }
+
 #plusbtn4 {
     position: absolute;
     background: transparent;
@@ -739,7 +741,6 @@ hr.line {
     transition: 0.5s;
     z-index: 0;
 }
-
 
 #plusbtn1:hover {
     transform: scale(1.2);
@@ -1751,4 +1752,12 @@ hr.line {
     position: absolute;
     opacity: 0;
     text-shadow: 3px 3px 10px white;
+}
+
+.jimrobain[data-show="1"] .hide {
+    display: flex;
+}
+
+.jimrobain[data-show="0"] .hide {
+    display: none;
 }
