@@ -5,6 +5,11 @@
     touch-action: pan-x pan-y;
 }
 
+html {
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
+
 a {
     color: whitesmoke!important;
     font-size: 1.5vw;
