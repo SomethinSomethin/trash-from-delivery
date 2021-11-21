@@ -2,6 +2,7 @@
     background-color: black;
     overflow-x: hidden;
     font-family: 'Chakra Petch', sans-serif;
+    touch-action: pan-x pan-y;
 }
 
 a {
@@ -34,7 +35,7 @@ a {
 /* respondsive */
 
 @media (min-width: 0px) {
-    .fontfood{
+    .fontfood {
         font-size: 4vw;
     }
     .motor1-text1 {
@@ -145,7 +146,7 @@ a {
 /* respondsive */
 
 @media (min-width: 375px) {
-    .fontfood{
+    .fontfood {
         font-size: 4vw;
     }
     .motor1-text1 {
@@ -337,7 +338,7 @@ a {
 } */
 
 @media (min-width: 576px) {
-    .fontfood{
+    .fontfood {
         font-size: 3vw;
     }
     .motor1-text1 {
@@ -449,7 +450,7 @@ a {
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .fontfood{
+    .fontfood {
         font-size: 3vw;
     }
     .motor1-text1 {
@@ -555,7 +556,7 @@ a {
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .fontfood{
+    .fontfood {
         font-size: 3vw;
     }
     .motor1-text1 {
@@ -670,7 +671,7 @@ a {
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .fontfood{
+    .fontfood {
         font-size: 2vw;
     }
     .motor1-text1 {

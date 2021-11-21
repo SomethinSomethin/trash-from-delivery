@@ -54,7 +54,7 @@ document.body.onscroll = function() {
     var condip7Top = condip7.offsetTop;
     var condip8Top = condip8.offsetTop;
 
-    // console.log(condip8Top);
+    console.log(condip8Top);
     let chk = document.getElementById("cheackrow").getBoundingClientRect().y
         // console.log((chk - viewHeight) * -1);
 
