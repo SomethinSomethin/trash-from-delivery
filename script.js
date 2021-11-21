@@ -54,7 +54,7 @@ document.body.onscroll = function() {
     var condip7Top = condip7.offsetTop;
     var condip8Top = condip8.offsetTop;
 
-    console.log(condip8Top);
+    // console.log(condip8Top);
     let chk = document.getElementById("cheackrow").getBoundingClientRect().y
         // console.log((chk - viewHeight) * -1);
 
@@ -175,7 +175,7 @@ function show_Detlekapu() {
 };
 
 function back() {
-    document.querySelector(".menufood").dataset.show = "start";
+    document.querySelector(".menufood").dataset.show = "start1";
     document.querySelector(".jimrobain").dataset.show = "1";
     window.scroll(0, 3000);
 };
@@ -193,12 +193,12 @@ function show_Detlesing() {
 };
 
 function backcountry() {
-    document.querySelector(".country").dataset.show = "start";
+    document.querySelector(".country").dataset.show = "start1";
 
 };
 
 function backcountry2() {
-    document.querySelector(".country2").dataset.show = "start";
+    document.querySelector(".country2").dataset.show = "start1";
 
 };
 

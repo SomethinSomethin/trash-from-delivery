@@ -1,13 +1,34 @@
 .country[data-show="koria"] .infokoria {
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
 }
 
 .country[data-show="sing"] .infosing {
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
 }
 
 .country2[data-show="thai"] .infothai {
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
+}
+
+.country[data-show="stat1"] .infokoria {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
+}
+
+.country[data-show="stat1"] .infosing {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
+}
+
+.country2[data-show="stat1"] .infothai {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
 }
 
 .infokoria {
@@ -15,11 +36,11 @@
     background-color: black;
     height: 950px;
     width: 100%;
-    left: 120%;
+    /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
 .infosing {
@@ -27,11 +48,11 @@
     background-color: black;
     height: 950px;
     width: 100%;
-    left: 120%;
+    /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
 .infothai {
@@ -39,11 +60,35 @@
     background-color: black;
     height: 650px;
     width: 100%;
-    left: 120%;
+    /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
+}
+
+@keyframes showw {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes showback {
+    0% {
+        display: grid;
+        transform: translateX(0%);
+    }
+    99% {
+        display: grid;
+        transform: translateX(100%);
+    }
+    100% {
+        display: none;
+        transform: translateX(100%);
+    }
 }
 
 #back_country {
@@ -90,11 +135,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-
-    .bigbtn{
-        margin:15px;
-        width:30vw;
-        height:6vh;
+    .bigbtn {
+        margin: 15px;
+        width: 30vw;
+        height: 6vh;
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
@@ -125,11 +169,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-
-    .bigbtn{
-        margin:15px;
-        width:20vw;
-        height:6vh;
+    .bigbtn {
+        margin: 15px;
+        width: 20vw;
+        height: 6vh;
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
@@ -160,10 +203,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-    .bigbtn{
-        margin:15px;
-        width:18vw;
-        height:6vh;
+    .bigbtn {
+        margin: 15px;
+        width: 18vw;
+        height: 6vh;
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
@@ -199,10 +242,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-    .bigbtn{
-        margin:15px;
-        width:15vw;
-        height:7vh;
+    .bigbtn {
+        margin: 15px;
+        width: 15vw;
+        height: 7vh;
         font-weight: 700;
         font-size: 2.5vh;
         border-radius: 10px;
@@ -247,10 +290,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-    .bigbtn{
-        margin:15px;
-        width:11vw;
-        height:6vh;
+    .bigbtn {
+        margin: 15px;
+        width: 11vw;
+        height: 6vh;
         font-weight: 700;
         font-size: 2.5vh;
         border-radius: 10px;
@@ -291,10 +334,10 @@
     #buttonsing {
         margin-top: 20px;
     }
-    .bigbtn{
-        margin:15px;
-        width:7vw;
-        height:5vh;
+    .bigbtn {
+        margin: 15px;
+        width: 7vw;
+        height: 5vh;
         font-weight: 700;
         font-size: 2.5vh;
         border-radius: 10px;

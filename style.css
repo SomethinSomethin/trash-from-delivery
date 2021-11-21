@@ -938,11 +938,11 @@ hr.line {
     background-color: black;
     height: 230vw;
     width: 100%;
-    left: 120%;
+    /* left: 50%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
 .info2 {
@@ -950,11 +950,11 @@ hr.line {
     background-color: black;
     height: 230vw;
     width: 100%;
-    left: 120%;
+    /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
 .info3 {
@@ -962,11 +962,11 @@ hr.line {
     background-color: black;
     height: 230vw;
     width: 100%;
-    left: 120%;
+    /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
 #infoimg {
@@ -1247,18 +1247,66 @@ hr.line {
 }
 
 .menufood[data-show="ricechicken"] .info1 {
-    /* display: block; */
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
+    /* left: 0%; */
 }
 
 .menufood[data-show="yentafo"] .info2 {
-    /* display: block; */
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
+    /* left: 0%; */
 }
 
 .menufood[data-show="kapu"] .info3 {
-    /* display: block; */
-    left: 0%;
+    display: grid;
+    animation: showw .3s;
+    /* left: 0%; */
+}
+
+.menufood[data-show="start1"] .info1 {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
+    /* left: 0%; */
+}
+
+.menufood[data-show="start1"] .info2 {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
+    /* left: 0%; */
+}
+
+.menufood[data-show="start1"] .info3 {
+    animation: showback .3s;
+    animation-fill-mode: forwards;
+    display: grid;
+    /* left: 0%; */
+}
+
+@keyframes showw {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes showback {
+    0% {
+        display: grid;
+        transform: translateX(0%);
+    }
+    99% {
+        display: grid;
+        transform: translateX(100%);
+    }
+    100% {
+        display: none;
+        transform: translateX(100%);
+    }
 }
 
 .size_img_food {
