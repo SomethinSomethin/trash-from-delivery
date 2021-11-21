@@ -1,7 +1,7 @@
+
+#wrapper {position: absolute; width: 100%; overflow-x: hidden}
 .jimrobain {
-    overflow: none;
     background-color: black;
-    overflow-x: hidden;
     font-family: 'Chakra Petch', sans-serif;
     touch-action: pan-x pan-y;
 }
