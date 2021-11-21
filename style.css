@@ -62,8 +62,8 @@ a {
         display: grid;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -5vw;
+        top: 1vh;
+        right: 2vw;
     }
     #plusbtn3 {
         top: 2vw;
@@ -173,8 +173,8 @@ a {
         display: none;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -5vw;
+        top: 1vh;
+        right: 2vw;
     }
     #plusbtn3 {
         top: 2vw;
@@ -365,8 +365,8 @@ a {
         display: none;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -3vw;
+        top: 0.6vh;
+        right: 2vw;
     }
     #plusbtn2 {
         top: 3vh;
@@ -477,8 +477,8 @@ a {
         display: none;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -2vw;
+        top: 0vh;
+        right: 1vw;
     }
     #plusbtn3 {
         top: 2vw;
@@ -583,8 +583,8 @@ a {
         display: none;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -2vw;
+        top: 0vh;
+        right: 1vw;
     }
     #plusbtn3 {
         top: 2vw;
@@ -698,8 +698,8 @@ a {
         display: none;
     }
     #plusbtn4 {
-        top: -1vh;
-        right: -1vw;
+        top: 0vh;
+        right: 1vw;
     }
     #plusbtn3 {
         top: 2vw;

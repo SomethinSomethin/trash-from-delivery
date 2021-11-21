@@ -90,6 +90,15 @@
     #buttonsing {
         margin-top: 20px;
     }
+
+    .bigbtn{
+        margin:15px;
+        width:30vw;
+        height:6vh;
+        font-weight: 700;
+        font-size: 2.2vh;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width:375px) {
@@ -116,6 +125,15 @@
     #buttonsing {
         margin-top: 20px;
     }
+
+    .bigbtn{
+        margin:15px;
+        width:20vw;
+        height:6vh;
+        font-weight: 700;
+        font-size: 2.2vh;
+        border-radius: 10px;
+    }
 }
 
 @media(min-width: 576px) {
@@ -141,6 +159,14 @@
     }
     #buttonsing {
         margin-top: 20px;
+    }
+    .bigbtn{
+        margin:15px;
+        width:18vw;
+        height:6vh;
+        font-weight: 700;
+        font-size: 2.2vh;
+        border-radius: 10px;
     }
 }
 
@@ -172,6 +198,14 @@
     }
     #buttonsing {
         margin-top: 20px;
+    }
+    .bigbtn{
+        margin:15px;
+        width:15vw;
+        height:7vh;
+        font-weight: 700;
+        font-size: 2.5vh;
+        border-radius: 10px;
     }
 }
 
@@ -213,6 +247,14 @@
     #buttonsing {
         margin-top: 20px;
     }
+    .bigbtn{
+        margin:15px;
+        width:11vw;
+        height:6vh;
+        font-weight: 700;
+        font-size: 2.5vh;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -249,20 +291,16 @@
     #buttonsing {
         margin-top: 20px;
     }
+    .bigbtn{
+        margin:15px;
+        width:7vw;
+        height:5vh;
+        font-weight: 700;
+        font-size: 2.5vh;
+        border-radius: 10px;
+    }
 }
 
 .end-footer {
     padding-bottom: 20%;
 }
-
-
-/* #plusbtn3 {
-    position: absolute;
-    z-index: 10;
-    padding-top: 5%;
-} */
-
-
-/* #plusbtn3:hover {
-    transform: scale(1.2);
-} */
