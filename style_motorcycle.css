@@ -1,52 +1,78 @@
-.bike{
+.bike {
     position: absolute;
-    right: -20%;
-}
-#bike1{
-    top:30%;
-    transition: none;
-}
-#bike2{
-    top:55%;
-    transition: none;
-}
-#bike3{
-    top:80%;
-    transition: none;
-}
-#bikeText{
-    opacity: 0%;
-    transition: 1.5s;
-    
+    right: 100%;
 }
 
-#motorcycle[data-bike="active"] #bike1{
-    right: 130%;
-    transition: 3s;
+#bike1 {
+    display: none;
 }
-#motorcycle[data-bike="active"] #bike2{
-    right: 140%;
-    transition: 4s;
+
+#bike2 {
+    display: none;
 }
-#motorcycle[data-bike="active"] #bike3{
-    right: 120%;
-    transition: 2.5s;
-    transition-delay: 0.5;
+
+#bike3 {
+    display: none;
 }
-#motorcycle[data-bike="active"] #bikeText{
+
+#bikeText {
+    opacity: 0%;
+    transition: 1.5s;
+}
+
+#motorcycle[data-bike="active"] #bike1 {
+    display: grid;
+    animation: showw 3s linear;
+}
+
+#motorcycle[data-bike="active"] #bike2 {
+    display: grid;
+    animation: showw 1s linear;
+}
+
+#motorcycle[data-bike="active"] #bike3 {
+    display: grid;
+    animation: showw 2s linear;
+}
+
+#motorcycle[data-bike="others"] #bike1 {
+    display: none;
+}
+
+#motorcycle[data-bike="others"] #bike2 {
+    display: none;
+}
+
+#motorcycle[data-bike="others"] #bike3 {
+    display: none;
+}
+
+@keyframes showw {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(-0%);
+    }
+}
+
+#motorcycle[data-bike="active"] #bikeText {
     opacity: 100%;
 }
 
-#countText{
-  opacity: 0%;
-  transition: 1.5s;
-}
-#junkcount[data-junkcount="active"] #countText{
-  opacity: 100%;
+#countText {
+    opacity: 0%;
+    transition: 1.5s;
 }
 
- /* Customize the label (the container) */
- .checkwrap {
+#junkcount[data-junkcount="active"] #countText {
+    opacity: 100%;
+}
+
+
+/* Customize the label (the container) */
+
+.checkwrap {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -57,19 +83,23 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .checkwrap input {
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkwrap input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -77,37 +107,47 @@
     width: 35px;
     border: 2px solid white;
     border-radius: 100%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .checkwrap:hover input ~ .checkmark {
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkwrap:hover input~.checkmark {
     background-color: #41D485;
     transition: 0.5s;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .checkwrap input:checked ~ .checkmark {
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkwrap input:checked~.checkmark {
     background-color: #41D485;
     background-color: none;
     transition: 0.5s;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
     transition: 0.5s;
-  }
-  
-  /* Show the checkmark when checked */
-  .checkwrap input:checked ~ .checkmark:after {
+}
+
+
+/* Show the checkmark when checked */
+
+.checkwrap input:checked~.checkmark:after {
     display: block;
     transition: 0.5s;
-  }
-  
-  /* Style the checkmark/indicator */
-  .checkwrap .checkmark:after {
+}
+
+
+/* Style the checkmark/indicator */
+
+.checkwrap .checkmark:after {
     left: 10px;
     top: 5px;
     width: 10px;
@@ -117,4 +157,4 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+}
