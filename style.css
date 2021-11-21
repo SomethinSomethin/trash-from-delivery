@@ -941,6 +941,7 @@ hr.line {
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 .info2 {
@@ -952,6 +953,7 @@ hr.line {
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 .info3 {
@@ -963,6 +965,7 @@ hr.line {
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 #infoimg {
@@ -1243,14 +1246,17 @@ hr.line {
 }
 
 .menufood[data-show="ricechicken"] .info1 {
+    /* display: block; */
     left: 0%;
 }
 
 .menufood[data-show="yentafo"] .info2 {
+    /* display: block; */
     left: 0%;
 }
 
 .menufood[data-show="kapu"] .info3 {
+    /* display: block; */
     left: 0%;
 }
 

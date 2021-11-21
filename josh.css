@@ -19,6 +19,7 @@
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 .infosing {
@@ -30,6 +31,7 @@
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 .infothai {
@@ -41,6 +43,7 @@
     /* top: 400vh; */
     transition: all 0.5s;
     z-index: 3;
+    /* display: none; */
 }
 
 #back_country {
