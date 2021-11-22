@@ -794,7 +794,7 @@ hr.line {
 }
 
 .receipt {
-    position: sticky;
+    position: sticky ;
     position: -webkit-sticky;
     /* height: 120vh; */
     /* width: 30vw; */
@@ -1113,42 +1113,42 @@ hr.line {
 
 #textinfo_y_2 {
     position: absolute;
-    top: 55vw;
+    top: 47vw;
 }
 
 #textinfo_y_3 {
     position: absolute;
-    top: 82vw;
+    top: 70vw;
 }
 
 #textinfo_y_4 {
     position: absolute;
-    top: 110vw;
+    top: 94vw;
 }
 
 #textinfo_y_5 {
     position: absolute;
-    top: 135vw;
+    top: 115vw;
 }
 
 #textinfo_y_6 {
     position: absolute;
-    top: 165vw;
+    top: 134vw;
 }
 
 #textinfo_y_7 {
     position: absolute;
-    top: 188vw;
+    top: 153vw;
 }
 
 #textinfo_y_8 {
     position: absolute;
-    top: 210vw;
+    top: 170vw;
 }
 
 #textinfo_y_9 {
     position: absolute;
-    top: 230vw;
+    top: 213vw;
 }
 
 
@@ -1198,32 +1198,32 @@ hr.line {
 
 #textinfo_k_2 {
     position: absolute;
-    top: 62vw;
+    top: 60vw;
 }
 
 #textinfo_k_3 {
     position: absolute;
-    top: 106vw;
+    top: 98vw;
 }
 
 #textinfo_k_4 {
     position: absolute;
-    top: 135vw;
+    top: 127vw;
 }
 
 #textinfo_k_5 {
     position: absolute;
-    top: 165vw;
+    top: 154vw;
 }
 
 #textinfo_k_6 {
     position: absolute;
-    top: 187vw;
+    top: 176vw;
 }
 
 #textinfo_k_7 {
     position: absolute;
-    top: 208vw;
+    top: 192vw;
 }
 
 
@@ -1327,7 +1327,6 @@ hr.line {
     position: relative;
 }
 
-<<<<<<< Updated upstream
 .plastic {
     height: 100vh;
     /* background-color: brown; */
@@ -1338,8 +1337,6 @@ hr.line {
     top: 10vh;
 }
 
-=======
->>>>>>> Stashed changes
 .psall[data-scene="0"] #ps-1 {
     opacity: 0;
 }
