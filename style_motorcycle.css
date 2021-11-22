@@ -47,7 +47,7 @@
 
 #bikeText {
     opacity: 0%;
-    transition: 1.5s;
+    transition: 0.7s;
 }
 
 #motorcycle[data-bike="active"] #bike1 {
@@ -92,7 +92,7 @@
 
 #countText {
     opacity: 0%;
-    transition: 1.5s;
+    transition: 0.7s;
 }
 
 #junkcount[data-junkcount="active"] #countText {
