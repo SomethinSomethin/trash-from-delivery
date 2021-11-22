@@ -34,7 +34,7 @@
 .infokoria {
     position: absolute;
     background-color: black;
-    height: 950px;
+    /* height: 950px; */
     width: 100%;
     /* left: 120%; */
     /* top: 400vh; */
@@ -60,6 +60,7 @@
     background-color: black;
     height: 650px;
     width: 100%;
+    margin-left: 3vw;
     /* left: 120%; */
     /* top: 400vh; */
     transition: all 0.5s;
@@ -133,7 +134,11 @@
         width: 200px;
     }
     #buttonsing {
+        margin-left: 3vh;
         margin-top: 20px;
+    }
+    #buttonkoria {
+        margin-left: 3vh;
     }
     .bigbtn {
         margin: 15px;
@@ -142,6 +147,12 @@
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
+    }
+    .infokoria {
+        height: 1000px;
+    }
+    .infosing {
+        height: 1000px;
     }
 }
 
@@ -167,7 +178,11 @@
         width: 300px;
     }
     #buttonsing {
+        margin-left: 3vh;
         margin-top: 20px;
+    }
+    #buttonkoria {
+        margin-left: 3vh;
     }
     .bigbtn {
         margin: 15px;
@@ -176,6 +191,12 @@
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
+    }
+    .infokoria {
+        height: 1000px;
+    }
+    .infosing {
+        height: 1000px;
     }
 }
 
@@ -202,6 +223,10 @@
     }
     #buttonsing {
         margin-top: 20px;
+        margin-left: 3vh;
+    }
+    #buttonkoria {
+        margin-left: 3vh;
     }
     .bigbtn {
         margin: 15px;
@@ -210,6 +235,12 @@
         font-weight: 700;
         font-size: 2.2vh;
         border-radius: 10px;
+    }
+    .infokoria {
+        height: 1000px;
+    }
+    .infosing {
+        height: 1000px;
     }
 }
 
@@ -249,6 +280,12 @@
         font-weight: 700;
         font-size: 2.5vh;
         border-radius: 10px;
+    }
+    .infokoria {
+        height: 950px;
+    }
+    .infosing {
+        height: 950px;
     }
 }
 
@@ -298,6 +335,12 @@
         font-size: 2.5vh;
         border-radius: 10px;
     }
+    .infokoria {
+        height: 950px;
+    }
+    .infosing {
+        height: 950px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -341,6 +384,12 @@
         font-weight: 700;
         font-size: 2.5vh;
         border-radius: 10px;
+    }
+    .infokoria {
+        height: 950px;
+    }
+    .infosing {
+        height: 950px;
     }
 }
 
