@@ -180,7 +180,7 @@ function show_Detlekapu() {
 function back() {
     document.querySelector(".menufood").dataset.show = "start1";
     document.querySelector(".jimrobain").dataset.show = "1";
-    // window.scroll(0, 3000);
+    window.scroll(0, 3000);
 };
 
 function show_Detlekoria() {

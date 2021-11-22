@@ -1267,21 +1267,21 @@ hr.line {
 .menufood[data-show="start1"] .info1 {
     animation: showback .3s;
     animation-fill-mode: forwards;
-    display: grid;
+    /* display: grid; */
     /* left: 0%; */
 }
 
 .menufood[data-show="start1"] .info2 {
     animation: showback .3s;
     animation-fill-mode: forwards;
-    display: grid;
+    /* display: grid; */
     /* left: 0%; */
 }
 
 .menufood[data-show="start1"] .info3 {
     animation: showback .3s;
     animation-fill-mode: forwards;
-    display: grid;
+    /* display: grid; */
     /* left: 0%; */
 }
 
