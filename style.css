@@ -1327,7 +1327,6 @@ hr.line {
     position: relative;
 }
 
-<<<<<<< Updated upstream
 .plastic {
     height: 100vh;
     /* background-color: brown; */
@@ -1338,8 +1337,6 @@ hr.line {
     top: 10vh;
 }
 
-=======
->>>>>>> Stashed changes
 .psall[data-scene="0"] #ps-1 {
     opacity: 0;
 }
