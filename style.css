@@ -40,15 +40,6 @@ a {
 /* respondsive */
 
 @media (min-width: 0px) {
-    .plastic {
-        height: 75vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 4vw;
     }
@@ -160,15 +151,6 @@ a {
 /* respondsive */
 
 @media (min-width: 375px) {
-    .plastic {
-        height: 75vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 4vw;
     }
@@ -361,15 +343,6 @@ a {
 } */
 
 @media (min-width: 576px) {
-    .plastic {
-        height: 50vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 3vw;
     }
@@ -482,15 +455,6 @@ a {
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .plastic {
-        height: 50vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 3vw;
     }
@@ -597,15 +561,6 @@ a {
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .plastic {
-        height: 50vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 3vw;
     }
@@ -721,15 +676,6 @@ a {
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .plastic {
-        height: 100vh;
-        /* background-color: brown; */
-        z-index: 2;
-        width: 100%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 10vh;
-    }
     .fontfood {
         font-size: 2vw;
     }
@@ -1381,6 +1327,15 @@ hr.line {
     position: relative;
 }
 
+.plastic {
+    height: 100vh;
+    /* background-color: brown; */
+    z-index: 2;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10vh;
+}
 
 .psall[data-scene="0"] #ps-1 {
     opacity: 0;
