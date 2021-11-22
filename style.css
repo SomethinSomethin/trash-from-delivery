@@ -794,7 +794,7 @@ hr.line {
 }
 
 .receipt {
-    position: sticky ;
+    position: sticky;
     position: -webkit-sticky;
     /* height: 120vh; */
     /* width: 30vw; */
@@ -1113,42 +1113,42 @@ hr.line {
 
 #textinfo_y_2 {
     position: absolute;
-    top: 47vw;
+    top: 55vw;
 }
 
 #textinfo_y_3 {
     position: absolute;
-    top: 70vw;
+    top: 82vw;
 }
 
 #textinfo_y_4 {
     position: absolute;
-    top: 94vw;
+    top: 110vw;
 }
 
 #textinfo_y_5 {
     position: absolute;
-    top: 115vw;
+    top: 135vw;
 }
 
 #textinfo_y_6 {
     position: absolute;
-    top: 134vw;
+    top: 165vw;
 }
 
 #textinfo_y_7 {
     position: absolute;
-    top: 153vw;
+    top: 188vw;
 }
 
 #textinfo_y_8 {
     position: absolute;
-    top: 170vw;
+    top: 210vw;
 }
 
 #textinfo_y_9 {
     position: absolute;
-    top: 213vw;
+    top: 230vw;
 }
 
 
@@ -1198,32 +1198,32 @@ hr.line {
 
 #textinfo_k_2 {
     position: absolute;
-    top: 60vw;
+    top: 62vw;
 }
 
 #textinfo_k_3 {
     position: absolute;
-    top: 98vw;
+    top: 106vw;
 }
 
 #textinfo_k_4 {
     position: absolute;
-    top: 127vw;
+    top: 135vw;
 }
 
 #textinfo_k_5 {
     position: absolute;
-    top: 154vw;
+    top: 165vw;
 }
 
 #textinfo_k_6 {
     position: absolute;
-    top: 176vw;
+    top: 187vw;
 }
 
 #textinfo_k_7 {
     position: absolute;
-    top: 192vw;
+    top: 208vw;
 }
 
 
