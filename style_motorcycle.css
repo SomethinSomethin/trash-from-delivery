@@ -1,6 +1,6 @@
 .bike {
     position: absolute;
-    right: 100%;
+    right: 120%;
 }
 
 #bike1 {
@@ -22,17 +22,17 @@
 
 #motorcycle[data-bike="active"] #bike1 {
     display: grid;
-    animation: showw 3s linear;
+    animation: move 2s linear;
 }
 
 #motorcycle[data-bike="active"] #bike2 {
     display: grid;
-    animation: showw 1s linear;
+    animation: move 1s linear;
 }
 
 #motorcycle[data-bike="active"] #bike3 {
     display: grid;
-    animation: showw 2s linear;
+    animation: move 1.5s linear;
 }
 
 #motorcycle[data-bike="others"] #bike1 {
@@ -47,12 +47,12 @@
     display: none;
 }
 
-@keyframes showw {
+@keyframes move {
     from {
-        transform: translateX(-100%);
+        transform: translateX(130%);
     }
     to {
-        transform: translateX(-0%);
+        transform: translateX(0%);
     }
 }
 
