@@ -1304,8 +1304,27 @@ hr.line {
         transform: translateX(100%);
     }
     100% {
+        animation: poof 0.1s linear 0s 1;
+        -webkit-animation: poof 0.1s linear 0s 1;
+    }
+}
+
+@-webkit-keyframes poof {
+    from {
+        display: grid;
+    }
+    to {
         display: none;
-        transform: translateX(100%);
+    }
+}
+
+@keyframes poof {
+    from {
+        display: grid;
+    }
+    to {
+        visibility: hidden;
+        display: none;
     }
 }
 

@@ -38,6 +38,7 @@ document.body.onscroll = function() {
     var condip6 = document.getElementById("condip-6");
     var condip7 = document.getElementById("condip-7");
     var condip8 = document.getElementById("condip-8");
+    var condijim = document.getElementById("condijim");
 
     scroll_yenta = document.getElementById("backyentafo");
     scroll_yentatop = scroll_yenta.offsetTop;
@@ -53,6 +54,8 @@ document.body.onscroll = function() {
     var condip6Top = condip6.offsetTop;
     var condip7Top = condip7.offsetTop;
     var condip8Top = condip8.offsetTop;
+    var condpi1Top = condip1.offsetTop;
+    var condpijimTop = condijim.offsetTop;
 
     // console.log(condip8Top);
     let chk = document.getElementById("cheackrow").getBoundingClientRect().y
@@ -177,7 +180,7 @@ function show_Detlekapu() {
 function back() {
     document.querySelector(".menufood").dataset.show = "start1";
     document.querySelector(".jimrobain").dataset.show = "1";
-    window.scroll(0, 3000);
+    // window.scroll(0, 3000);
 };
 
 function show_Detlekoria() {
