@@ -391,6 +391,11 @@
     .infosing {
         height: 950px;
     }
+
+    .top-header{
+        text-align: center;
+        padding-top: 7vh;
+    }
 }
 
 .end-footer {
