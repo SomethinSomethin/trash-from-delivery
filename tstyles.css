@@ -13,24 +13,24 @@
 
 .lastp1reciept {
     color: red;
-    text-shadow: 2px 2px 4px #ffffff;
-    font-weight: bolder;
+    text-shadow: 2px 2px 3px #ffffff;
+    font-weight: bold;
     font-size: 40px;
     display: block;
 }
 
 .lastp2reciept {
     color: red;
-    text-shadow: 2px 2px 4px #ffffff;
+    text-shadow: 2px 2px 3px #ffffff;
     font-weight: bolder;
     font-size: 80px;
 }
 
 .lastp3reciept {
     color: red;
-    text-shadow: 2px 2px 4px #ffffff;
-    font-weight: bolder;
-    font-size: 80px;
+    text-shadow: 2px 2px 3px #ffffff;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 

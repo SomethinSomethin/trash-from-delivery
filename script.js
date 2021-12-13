@@ -63,7 +63,7 @@ document.body.onscroll = function() {
 
 
     if (((chk - viewHeight) * -1 >= condpi1Top) && ((chk - viewHeight) * -1 < condip2Top)) {
-        document.getElementById("text_con2").innerHTML = "ขยะพลาสติกจากการสั่งอาหารเดลิเวอรี่ปี 2562";
+        document.getElementById("text_con2").innerHTML = "ปริมาณขยะพลาสติกในแต่ละปี";
         document.getElementById("text_con1").innerHTML = "";
         document.querySelector(".psall").dataset.scene = 1
     } else if (((chk - viewHeight) * -1 >= condip2Top) && ((chk - viewHeight) * -1 < condip3Top)) {

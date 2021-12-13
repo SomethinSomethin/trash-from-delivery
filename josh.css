@@ -58,7 +58,7 @@
 .infothai {
     position: absolute;
     background-color: black;
-    height: 650px;
+    height: 950px;
     width: 100%;
     margin-left: 3vw;
     /* left: 120%; */
@@ -186,10 +186,10 @@
     }
     .bigbtn {
         margin: 15px;
-        width: 20vw;
+        width: 32vw;
         height: 6vh;
         font-weight: 700;
-        font-size: 2.2vh;
+        font-size: 1.8vh;
         border-radius: 10px;
     }
     .infokoria {
@@ -230,7 +230,7 @@
     }
     .bigbtn {
         margin: 15px;
-        width: 18vw;
+        width: 25vw;
         height: 6vh;
         font-weight: 700;
         font-size: 2.2vh;
@@ -275,7 +275,7 @@
     }
     .bigbtn {
         margin: 15px;
-        width: 15vw;
+        width: 21vw;
         height: 7vh;
         font-weight: 700;
         font-size: 2.5vh;
@@ -329,7 +329,7 @@
     }
     .bigbtn {
         margin: 15px;
-        width: 11vw;
+        width: 18vw;
         height: 6vh;
         font-weight: 700;
         font-size: 2.5vh;
@@ -379,10 +379,10 @@
     }
     .bigbtn {
         margin: 15px;
-        width: 7vw;
+        width: 11vw;
         height: 5vh;
         font-weight: 700;
-        font-size: 2.5vh;
+        font-size: 2.1vh;
         border-radius: 10px;
     }
     .infokoria {
@@ -395,6 +395,9 @@
     .top-header{
         text-align: center;
         padding-top: 7vh;
+    }
+    .row_padding{
+        margin-bottom:15%;
     }
 }
 
