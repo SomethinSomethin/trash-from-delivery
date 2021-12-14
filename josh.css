@@ -393,10 +393,6 @@
         height: 950px;
     }
 
-    .top-header{
-        text-align: center;
-        padding-top: 7vh;
-    }
     .row_padding{
         margin-bottom:15%;
     }
@@ -408,4 +404,9 @@
 
 .test{
     width:100%;
+}
+
+.top-header{
+    text-align: center;
+    padding-top: 7vh;
 }
