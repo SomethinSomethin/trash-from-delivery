@@ -66,6 +66,7 @@
     transition: all 0.5s;
     z-index: 3;
     display: none;
+    bottom:0px;
 }
 
 @keyframes showw {
@@ -392,10 +393,6 @@
         height: 950px;
     }
 
-    .top-header{
-        text-align: center;
-        padding-top: 7vh;
-    }
     .row_padding{
         margin-bottom:15%;
     }
@@ -407,4 +404,9 @@
 
 .test{
     width:100%;
+}
+
+.top-header{
+    text-align: center;
+    padding-top: 7vh;
 }
