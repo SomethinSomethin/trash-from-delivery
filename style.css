@@ -1330,6 +1330,9 @@ hr.line {
 
 .size_img_food {
     width: 30vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sizetextinfo {

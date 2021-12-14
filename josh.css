@@ -66,6 +66,7 @@
     transition: all 0.5s;
     z-index: 3;
     display: none;
+    bottom:0px;
 }
 
 @keyframes showw {
